@@ -1,0 +1,9 @@
+usr/bin/gnometris.exe
+usr/share/applications/gnometris.desktop
+usr/share/gnome/help/gnometris/
+usr/share/icons/hicolor/*/apps/gnome-gnometris.png
+usr/share/omf/gnome-games/gnometris-C.omf
+usr/share/pixmaps/gnometris/
+usr/share/sounds/gnometris/
+var/lib/games/gnometris.scores
+usr/share/doc/gnometris-*/

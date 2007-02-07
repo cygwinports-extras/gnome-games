@@ -1,0 +1,11 @@
+category: Games Gnome
+requires: cygwin GConf2 glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8
+external-source: gnome-games
+sdesc: "GNOME Klotski game"
+ldesc: "Gnome-games is a collection of simple, but addictive, games from
+the GNOME desktop project. They represent many of the popular games and
+include card games, puzzle games and arcade games. They are meant to be
+the sort of game that can be played in five minutes or so. They are also
+meant to be fun enough that you will play them again and again. Of
+course we can't be held responsible for the time and productivity lost
+while playing them."

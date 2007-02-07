@@ -1,0 +1,11 @@
+etc/sound/events/gnobots2.soundlist
+usr/bin/gnobots2.exe
+usr/share/applications/gnobots2.desktop
+usr/share/gnobots2/
+usr/share/gnome/help/gnobots2/
+usr/share/icons/hicolor/*/apps/gnome-robots.*
+usr/share/omf/gnome-games/gnobots2-*.omf
+usr/share/pixmaps/gnobots2/
+usr/share/sounds/gnobots2/
+var/lib/games/gnobots2.*.scores
+usr/share/doc/gnobots2-*/

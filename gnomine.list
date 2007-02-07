@@ -1,0 +1,8 @@
+usr/bin/gnomine.exe
+usr/share/applications/gnomine.desktop
+usr/share/gnome/help/gnomine/
+usr/share/icons/hicolor/*/apps/gnome-gnomine.*
+usr/share/omf/gnome-games/gnomine-C.omf
+usr/share/pixmaps/gnomine/
+var/lib/games/gnomine.*.scores
+usr/share/doc/gnomine-*/
