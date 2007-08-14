@@ -1,0 +1,8 @@
+usr/bin/gnome-sudoku
+usr/lib/python*/site-packages/gnome_sudoku/
+usr/share/applications/gnome-sudoku.desktop
+usr/share/doc/gnome-sudoku-*/
+usr/share/gnome/help/gnome-sudoku/
+usr/share/gnome-sudoku/
+usr/share/pixmaps/gnome-sudoku/
+usr/share/pixmaps/sudoku.png

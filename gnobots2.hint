@@ -1,7 +1,7 @@
 category: Games Gnome
-requires: cygwin GConf2 glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8
+requires: cygwin GConf2 glib2 gnome-vfs2 gtk2-x11 libgnome2 libgnomeui2 libintl8 pango
 external-source: gnome-games
-sdesc: "GNOME  game"
+sdesc: "GNOME robots game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
 the GNOME desktop project. They represent many of the popular games and
 include card games, puzzle games and arcade games. They are meant to be

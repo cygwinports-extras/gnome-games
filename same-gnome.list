@@ -3,6 +3,6 @@ usr/share/applications/same-gnome.desktop
 usr/share/gnome/help/same-gnome/
 usr/share/gnome-games/same-gnome/
 usr/share/icons/hicolor/*/apps/gnome-same-gnome.png
-usr/share/omf/gnome-games/same-gnome-C.omf
+usr/share/omf/same-gnome/
 var/lib/games/same-gnome.*.scores
 usr/share/doc/same-gnome-*/

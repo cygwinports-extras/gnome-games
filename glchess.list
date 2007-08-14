@@ -1,0 +1,9 @@
+usr/bin/glchess
+usr/lib/python*/site-packages/glchess/
+usr/share/applications/glchess.desktop
+usr/share/doc/glchess-*/
+usr/share/glchess/
+usr/share/gnome/help/glchess/
+usr/share/omf/glchess/
+usr/share/pixmaps/glchess/
+usr/share/pixmaps/glchess.svg

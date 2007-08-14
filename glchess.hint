@@ -1,7 +1,7 @@
-category: Games Gnome
-requires: cygwin GConf2 glib2 gtk2-x11 libX11_6 libexpat0 libgetaddrinfo0 libgnome2 libgnomeui2 libgnutls13 libintl8 pango zlib
+category: Gnome Games
+requires: gnome-games gnuchess python python-dbus python-gobject2 python-gtk2 python-gconf2 python-gnome2 python-gtkglext python-opengl
 external-source: gnome-games
-sdesc: "GNOME connect four game"
+sdesc: "GNOME chess game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
 the GNOME desktop project. They represent many of the popular games and
 include card games, puzzle games and arcade games. They are meant to be

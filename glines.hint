@@ -1,7 +1,7 @@
 category: Games Gnome
 requires: cygwin GConf2 glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8
 external-source: gnome-games
-sdesc: "GNOME  game"
+sdesc: "GNOME five-or-more game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
 the GNOME desktop project. They represent many of the popular games and
 include card games, puzzle games and arcade games. They are meant to be

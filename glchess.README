@@ -1,0 +1,230 @@
+glchess
+-------------------------------------------
+Gnome-games is a collection of simple, but addictive, games from the
+GNOME desktop project. They represent many of the popular games and
+include card games, puzzle games and arcade games. They are meant to
+be the sort of game that can be played in five minutes or so. They are
+also meant to be fun enough that you will play them again and
+again. Of course we can't be held responsible for the time and
+productivity lost while playing them.
+
+Runtime requirements:
+
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  intltool-0.35.5-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnome.org/projects/gnome-games/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-games/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-games-2.18.2.1-1.cygport all
+
+This will create:
+  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
+  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+
+  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
+  /usr/src/blackjack-2.18.2.1-1.tar.bz2
+  /usr/src/glchess-2.18.2.1-1.tar.bz2
+  /usr/src/glines-2.18.2.1-1.tar.bz2
+  /usr/src/gnect-2.18.2.1-1.tar.bz2
+  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
+  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
+  /usr/src/gnometris-2.18.2.1-1.tar.bz2
+  /usr/src/gnomine-2.18.2.1-1.tar.bz2
+  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
+  /usr/src/gnotski-2.18.2.1-1.tar.bz2
+  /usr/src/gtali-2.18.2.1-1.tar.bz2
+  /usr/src/iagno-2.18.2.1-1.tar.bz2
+  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
+  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+  /etc/gconf/schemas/glchess.schemas
+  /usr/bin/glchess
+  /usr/lib/python2.5/site-packages/glchess/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/ai.py
+  /usr/lib/python2.5/site-packages/glchess/ai.pyc
+  /usr/lib/python2.5/site-packages/glchess/ai.pyo
+  /usr/lib/python2.5/site-packages/glchess/cecp.py
+  /usr/lib/python2.5/site-packages/glchess/cecp.pyc
+  /usr/lib/python2.5/site-packages/glchess/cecp.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/chess/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/board.py
+  /usr/lib/python2.5/site-packages/glchess/chess/board.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/board.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/lan.py
+  /usr/lib/python2.5/site-packages/glchess/chess/lan.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/lan.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/pgn.py
+  /usr/lib/python2.5/site-packages/glchess/chess/pgn.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/pgn.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/san.py
+  /usr/lib/python2.5/site-packages/glchess/chess/san.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/san.pyo
+  /usr/lib/python2.5/site-packages/glchess/config.py
+  /usr/lib/python2.5/site-packages/glchess/config.pyc
+  /usr/lib/python2.5/site-packages/glchess/config.pyo
+  /usr/lib/python2.5/site-packages/glchess/defaults.py
+  /usr/lib/python2.5/site-packages/glchess/defaults.pyc
+  /usr/lib/python2.5/site-packages/glchess/defaults.pyo
+  /usr/lib/python2.5/site-packages/glchess/game.py
+  /usr/lib/python2.5/site-packages/glchess/game.pyc
+  /usr/lib/python2.5/site-packages/glchess/game.pyo
+  /usr/lib/python2.5/site-packages/glchess/glchess.py
+  /usr/lib/python2.5/site-packages/glchess/glchess.pyc
+  /usr/lib/python2.5/site-packages/glchess/glchess.pyo
+  /usr/lib/python2.5/site-packages/glchess/gtkui/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/gtkui/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/gtkui/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/gtkui/dialogs.py
+  /usr/lib/python2.5/site-packages/glchess/gtkui/dialogs.pyc
+  /usr/lib/python2.5/site-packages/glchess/gtkui/dialogs.pyo
+  /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.py
+  /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.pyc
+  /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.pyo
+  /usr/lib/python2.5/site-packages/glchess/main.py
+  /usr/lib/python2.5/site-packages/glchess/main.pyc
+  /usr/lib/python2.5/site-packages/glchess/main.pyo
+  /usr/lib/python2.5/site-packages/glchess/network/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/network/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/network/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/network/announce.py
+  /usr/lib/python2.5/site-packages/glchess/network/announce.pyc
+  /usr/lib/python2.5/site-packages/glchess/network/announce.pyo
+  /usr/lib/python2.5/site-packages/glchess/network/protocol.py
+  /usr/lib/python2.5/site-packages/glchess/network/protocol.pyc
+  /usr/lib/python2.5/site-packages/glchess/network/protocol.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/scene/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/pieces.py
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/pieces.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/cairo/pieces.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/human.py
+  /usr/lib/python2.5/site-packages/glchess/scene/human.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/human.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/builtin_models.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/builtin_models.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/builtin_models.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/new_models.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/new_models.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/new_models.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/opengl.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/opengl.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/opengl.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/png.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/png.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/png.pyo
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/texture.py
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/texture.pyc
+  /usr/lib/python2.5/site-packages/glchess/scene/opengl/texture.pyo
+  /usr/lib/python2.5/site-packages/glchess/uci.py
+  /usr/lib/python2.5/site-packages/glchess/uci.pyc
+  /usr/lib/python2.5/site-packages/glchess/uci.pyo
+  /usr/lib/python2.5/site-packages/glchess/ui/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/ui/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/ui/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/ui/ui.py
+  /usr/lib/python2.5/site-packages/glchess/ui/ui.pyc
+  /usr/lib/python2.5/site-packages/glchess/ui/ui.pyo
+  /usr/share/applications/glchess.desktop
+  /usr/share/doc/glchess-2.18.2.1/ChangeLog
+  /usr/share/doc/glchess-2.18.2.1/README
+  /usr/share/doc/glchess-2.18.2.1/TODO
+  /usr/share/glchess/ai.glade
+  /usr/share/glchess/ai.xml
+  /usr/share/glchess/chess_view.glade
+  /usr/share/glchess/error_dialog.glade
+  /usr/share/glchess/glchess.glade
+  /usr/share/glchess/glchess.svg
+  /usr/share/glchess/load_game.glade
+  /usr/share/glchess/new_game.glade
+  /usr/share/glchess/save_game.glade
+  /usr/share/gnome/help/glchess/C/glchess.xml
+  /usr/share/gnome/help/glchess/C/legal.xml
+  /usr/share/gnome/help/glchess/es/glchess.xml
+  /usr/share/gnome/help/glchess/fr/glchess.xml
+  /usr/share/gnome/help/glchess/sv/glchess.xml
+  /usr/share/omf/glchess/glchess-C.omf
+  /usr/share/omf/glchess/glchess-es.omf
+  /usr/share/omf/glchess/glchess-fr.omf
+  /usr/share/omf/glchess/glchess-sv.omf
+  /usr/share/pixmaps/glchess.svg
+  /usr/share/pixmaps/glchess/board.png
+  /usr/share/pixmaps/glchess/piece.png
+
+------------------
+
+Port Notes:
+
+----- version 2.18.2.1-1 -----
+Version bump for GNOME 2.18.
+Added: glchess, gnome-sudoku.
+Removed: gataxx.
+
+----- version 2.16.3-1 -----
+Version bump for GNOME 2.16.
+
+----- version 2.14.3-1 -----
+Version bump.
+
+----- version 2.14.2-1 -----
+Version bump.
+
+----- version 2.14.1-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.3-1 -----
+Version bump.
+
+----- version 2.12.2-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.2-1 -----
+Version bump.
+
+----- version 2.8.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

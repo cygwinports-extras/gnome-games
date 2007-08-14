@@ -4,5 +4,5 @@ usr/share/gnome/help/gtali/
 usr/share/icons/hicolor/*/apps/gnome-tali.*
 usr/share/omf/gnome-games/gtali-*.omf
 usr/share/pixmaps/gtali/
-var/lib/games/gtali.scores
+var/lib/games/gtali.*.scores
 usr/share/doc/gtali-*/

@@ -1,0 +1,191 @@
+gnome-sudoku
+-------------------------------------------
+Gnome-games is a collection of simple, but addictive, games from the
+GNOME desktop project. They represent many of the popular games and
+include card games, puzzle games and arcade games. They are meant to
+be the sort of game that can be played in five minutes or so. They are
+also meant to be fun enough that you will play them again and
+again. Of course we can't be held responsible for the time and
+productivity lost while playing them.
+
+Runtime requirements:
+
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  intltool-0.35.5-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  scrollkeeper-0.3.14-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnome.org/projects/gnome-games/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-games/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-games-2.18.2.1-1.cygport all
+
+This will create:
+  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
+  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+
+  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
+  /usr/src/blackjack-2.18.2.1-1.tar.bz2
+  /usr/src/glchess-2.18.2.1-1.tar.bz2
+  /usr/src/glines-2.18.2.1-1.tar.bz2
+  /usr/src/gnect-2.18.2.1-1.tar.bz2
+  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
+  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
+  /usr/src/gnometris-2.18.2.1-1.tar.bz2
+  /usr/src/gnomine-2.18.2.1-1.tar.bz2
+  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
+  /usr/src/gnotski-2.18.2.1-1.tar.bz2
+  /usr/src/gtali-2.18.2.1-1.tar.bz2
+  /usr/src/iagno-2.18.2.1-1.tar.bz2
+  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
+  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+  /usr/bin/gnome-sudoku
+  /usr/lib/python2.5/site-packages/gnome_sudoku/__init__.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/__init__.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/__init__.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/colors.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/colors.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/colors.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/defaults.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/defaults.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/defaults.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/dialog_swallower.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/dialog_swallower.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/dialog_swallower.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/game_selector.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/game_selector.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/game_selector.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gnome_sudoku.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gnome_sudoku.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gnome_sudoku.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gsudoku.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gsudoku.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gsudoku.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/Undo.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/Undo.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/Undo.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/__init__.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/__init__.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/__init__.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/dialog_extras.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/gconf_wrapper.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/image_extras.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/image_extras.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/gtk_goodies/image_extras.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/pausable.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/pausable.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/pausable.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/printing.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/printing.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/printing.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/saver.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/saver.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/saver.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/simple_debug.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/simple_debug.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/simple_debug.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_generator_gui.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_generator_gui.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_generator_gui.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_labeller.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_labeller.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_labeller.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_maker.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_maker.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/sudoku_maker.pyo
+  /usr/lib/python2.5/site-packages/gnome_sudoku/timer.py
+  /usr/lib/python2.5/site-packages/gnome_sudoku/timer.pyc
+  /usr/lib/python2.5/site-packages/gnome_sudoku/timer.pyo
+  /usr/share/applications/gnome-sudoku.desktop
+  /usr/share/doc/gnome-sudoku-2.18.2.1/AUTHORS
+  /usr/share/doc/gnome-sudoku-2.18.2.1/ChangeLog
+  /usr/share/doc/gnome-sudoku-2.18.2.1/README
+  /usr/share/gnome-sudoku/high_scores.glade
+  /usr/share/gnome-sudoku/new_game.glade
+  /usr/share/gnome-sudoku/open_game.glade
+  /usr/share/gnome-sudoku/print_games.glade
+  /usr/share/gnome-sudoku/puzzle_generator.glade
+  /usr/share/gnome-sudoku/starter_puzzles
+  /usr/share/gnome-sudoku/tracker.glade
+  /usr/share/gnome/help/gnome-sudoku/C/figures/Print_Sudokus.png
+  /usr/share/gnome/help/gnome-sudoku/C/figures/always_show_hint.png
+  /usr/share/gnome/help/gnome-sudoku/C/figures/error_highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/C/figures/highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/C/figures/hints.png
+  /usr/share/gnome/help/gnome-sudoku/C/gnome-sudoku.xml
+  /usr/share/gnome/help/gnome-sudoku/C/legal.xml
+  /usr/share/pixmaps/gnome-sudoku/footprints.png
+  /usr/share/pixmaps/sudoku.png
+
+------------------
+
+Port Notes:
+
+----- version 2.18.2.1-1 -----
+Version bump for GNOME 2.18.
+Added: glchess, gnome-sudoku.
+Removed: gataxx.
+
+----- version 2.16.3-1 -----
+Version bump for GNOME 2.16.
+
+----- version 2.14.3-1 -----
+Version bump.
+
+----- version 2.14.2-1 -----
+Version bump.
+
+----- version 2.14.1-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.12.3-1 -----
+Version bump.
+
+----- version 2.12.2-1 -----
+Version bump for GNOME 2.12.
+
+----- version 2.10.2-1 -----
+Version bump.
+
+----- version 2.8.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
