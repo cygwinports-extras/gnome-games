@@ -10,30 +10,30 @@ productivity lost while playing them.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libcairo2-1.4.10-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
+  GConf2-2.20.1-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  libcairo2-1.4.12-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
   libintl8-0.15-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -45,49 +45,77 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+  unpack gnome-games-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.18.2.1-1.cygport all
+  cygport ./gnome-games-2.20.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.2-1.tar.bz2
 
-  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
-  /usr/src/blackjack-2.18.2.1-1.tar.bz2
-  /usr/src/glchess-2.18.2.1-1.tar.bz2
-  /usr/src/glines-2.18.2.1-1.tar.bz2
-  /usr/src/gnect-2.18.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
-  /usr/src/gnometris-2.18.2.1-1.tar.bz2
-  /usr/src/gnomine-2.18.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
-  /usr/src/gnotski-2.18.2.1-1.tar.bz2
-  /usr/src/gtali-2.18.2.1-1.tar.bz2
-  /usr/src/iagno-2.18.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.20.2-1.tar.bz2
+  /usr/src/blackjack-2.20.2-1.tar.bz2
+  /usr/src/glchess-2.20.2-1.tar.bz2
+  /usr/src/glines-2.20.2-1.tar.bz2
+  /usr/src/gnect-2.20.2-1.tar.bz2
+  /usr/src/gnibbles-2.20.2-1.tar.bz2
+  /usr/src/gnobots2-2.20.2-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
+  /usr/src/gnometris-2.20.2-1.tar.bz2
+  /usr/src/gnomine-2.20.2-1.tar.bz2
+  /usr/src/gnotravex-2.20.2-1.tar.bz2
+  /usr/src/gnotski-2.20.2-1.tar.bz2
+  /usr/src/gtali-2.20.2-1.tar.bz2
+  /usr/src/iagno-2.20.2-1.tar.bz2
+  /usr/src/mahjongg-2.20.2-1.tar.bz2
+  /usr/src/same-gnome-2.20.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-  /etc/gconf/schemas/gnotravex.schemas
   /usr/bin/gnotravex.exe
   /usr/share/applications/gnotravex.desktop
-  /usr/share/doc/gnotravex-2.18.2.1/AUTHORS
-  /usr/share/doc/gnotravex-2.18.2.1/ChangeLog
-  /usr/share/doc/gnotravex-2.18.2.1/README
+  /usr/share/doc/gnotravex-2.20.2/AUTHORS
+  /usr/share/doc/gnotravex-2.20.2/ChangeLog
+  /usr/share/doc/gnotravex-2.20.2/README
   /usr/share/gnome/help/gnotravex/C/figures/gnotravex_game.png
   /usr/share/gnome/help/gnotravex/C/figures/gnotravex_mainwindow.png
   /usr/share/gnome/help/gnotravex/C/gnotravex.xml
   /usr/share/gnome/help/gnotravex/C/legal.xml
+  /usr/share/gnome/help/gnotravex/de/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/de/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/de/gnotravex.xml
+  /usr/share/gnome/help/gnotravex/el/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/el/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/el/gnotravex.xml
+  /usr/share/gnome/help/gnotravex/es/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/es/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/es/gnotravex.xml
+  /usr/share/gnome/help/gnotravex/fr/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/fr/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/fr/gnotravex.xml
+  /usr/share/gnome/help/gnotravex/oc/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/oc/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/oc/gnotravex.xml
+  /usr/share/gnome/help/gnotravex/sv/figures/gnotravex_game.png
+  /usr/share/gnome/help/gnotravex/sv/figures/gnotravex_mainwindow.png
+  /usr/share/gnome/help/gnotravex/sv/gnotravex.xml
+  /usr/share/icons/hicolor/16x16/apps/gnome-tetravex.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-tetravex.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-tetravex.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-tetravex.png
   /usr/share/icons/hicolor/48x48/apps/gnome-tetravex.png
-  /usr/share/omf/gnome-games/gnotravex-C.omf
+  /usr/share/icons/hicolor/scalable/apps/gnome-tetravex.svg
+  /usr/share/omf/gnotravex/gnotravex-C.omf
+  /usr/share/omf/gnotravex/gnotravex-de.omf
+  /usr/share/omf/gnotravex/gnotravex-el.omf
+  /usr/share/omf/gnotravex/gnotravex-es.omf
+  /usr/share/omf/gnotravex/gnotravex-fr.omf
+  /usr/share/omf/gnotravex/gnotravex-oc.omf
+  /usr/share/omf/gnotravex/gnotravex-sv.omf
   /usr/share/pixmaps/gnotravex/baize.png
   /var/lib/games/gnotravex.2x2.scores
   /var/lib/games/gnotravex.3x3.scores
@@ -98,6 +126,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.2.1-1 -----
 Version bump for GNOME 2.18.

@@ -1,9 +1,10 @@
 usr/bin/mahjongg.exe
 usr/share/applications/mahjongg.desktop
-usr/share/gnome/help/mahjongg/
+usr/share/doc/Cygwin/mahjongg-*.README
+usr/share/doc/mahjongg-*/
 usr/share/gnome-games/mahjongg/
-usr/share/icons/hicolor/*/apps/gnome-mahjongg.png
-usr/share/omf/gnome-games/mahjongg-C.omf
+usr/share/gnome/help/mahjongg/
+usr/share/icons/hicolor/*/apps/gnome-mahjongg.*
+usr/share/omf/mahjongg/
 usr/share/pixmaps/mahjongg/
 var/lib/games/mahjongg.*.scores
-usr/share/doc/mahjongg-*/

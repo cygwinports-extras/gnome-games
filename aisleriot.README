@@ -10,33 +10,33 @@ productivity lost while playing them.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gnome-vfs2-2.18.1-1
-  gtk2-x11-2.10.14-1
-  libglade2-2.6.1-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
-  libguile17-1.8.1-7
+  GConf2-2.20.1-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gstreamer010-0.10.15-1
+  gtk2-x11-2.12.2-1
+  libcairo2-1.4.12-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
+  libguile17-1.8.3-1
   libintl8-0.15-1
-  pango-1.16.4-1
+  librsvg2-2.18.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -48,44 +48,126 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+  unpack gnome-games-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.18.2.1-1.cygport all
+  cygport ./gnome-games-2.20.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.2-1.tar.bz2
 
-  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
-  /usr/src/blackjack-2.18.2.1-1.tar.bz2
-  /usr/src/glchess-2.18.2.1-1.tar.bz2
-  /usr/src/glines-2.18.2.1-1.tar.bz2
-  /usr/src/gnect-2.18.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
-  /usr/src/gnometris-2.18.2.1-1.tar.bz2
-  /usr/src/gnomine-2.18.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
-  /usr/src/gnotski-2.18.2.1-1.tar.bz2
-  /usr/src/gtali-2.18.2.1-1.tar.bz2
-  /usr/src/iagno-2.18.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.20.2-1.tar.bz2
+  /usr/src/blackjack-2.20.2-1.tar.bz2
+  /usr/src/glchess-2.20.2-1.tar.bz2
+  /usr/src/glines-2.20.2-1.tar.bz2
+  /usr/src/gnect-2.20.2-1.tar.bz2
+  /usr/src/gnibbles-2.20.2-1.tar.bz2
+  /usr/src/gnobots2-2.20.2-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
+  /usr/src/gnometris-2.20.2-1.tar.bz2
+  /usr/src/gnomine-2.20.2-1.tar.bz2
+  /usr/src/gnotravex-2.20.2-1.tar.bz2
+  /usr/src/gnotski-2.20.2-1.tar.bz2
+  /usr/src/gtali-2.20.2-1.tar.bz2
+  /usr/src/iagno-2.20.2-1.tar.bz2
+  /usr/src/mahjongg-2.20.2-1.tar.bz2
+  /usr/src/same-gnome-2.20.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-  /etc/gconf/schemas/aisleriot.schemas
   /usr/bin/sol.exe
   /usr/share/applications/freecell.desktop
   /usr/share/applications/sol.desktop
-  /usr/share/doc/aisleriot-2.18.2.1/AUTHORS
-  /usr/share/doc/aisleriot-2.18.2.1/ChangeLog
-  /usr/share/doc/aisleriot-2.18.2.1/TODO
+  /usr/share/doc/aisleriot-2.20.2/AUTHORS
+  /usr/share/doc/aisleriot-2.20.2/ChangeLog
+  /usr/share/doc/aisleriot-2.20.2/README
+  /usr/share/doc/aisleriot-2.20.2/TODO
+  /usr/share/gnome-games/aisleriot/games/agnes.scm
+  /usr/share/gnome-games/aisleriot/games/athena.scm
+  /usr/share/gnome-games/aisleriot/games/auld_lang_syne.scm
+  /usr/share/gnome-games/aisleriot/games/aunt_mary.scm
+  /usr/share/gnome-games/aisleriot/games/backbone.scm
+  /usr/share/gnome-games/aisleriot/games/bakers_dozen.scm
+  /usr/share/gnome-games/aisleriot/games/bakers_game.scm
+  /usr/share/gnome-games/aisleriot/games/beleaguered_castle.scm
+  /usr/share/gnome-games/aisleriot/games/block_ten.scm
+  /usr/share/gnome-games/aisleriot/games/bristol.scm
+  /usr/share/gnome-games/aisleriot/games/camelot.scm
+  /usr/share/gnome-games/aisleriot/games/canfield.scm
+  /usr/share/gnome-games/aisleriot/games/carpet.scm
+  /usr/share/gnome-games/aisleriot/games/chessboard.scm
+  /usr/share/gnome-games/aisleriot/games/clock.scm
+  /usr/share/gnome-games/aisleriot/games/cover.scm
+  /usr/share/gnome-games/aisleriot/games/cruel.scm
+  /usr/share/gnome-games/aisleriot/games/diamond_mine.scm
+  /usr/share/gnome-games/aisleriot/games/doublets.scm
+  /usr/share/gnome-games/aisleriot/games/eagle_wing.scm
+  /usr/share/gnome-games/aisleriot/games/easthaven.scm
+  /usr/share/gnome-games/aisleriot/games/eight_off.scm
+  /usr/share/gnome-games/aisleriot/games/elevator.scm
+  /usr/share/gnome-games/aisleriot/games/escalator.scm
+  /usr/share/gnome-games/aisleriot/games/first_law.scm
+  /usr/share/gnome-games/aisleriot/games/fortress.scm
+  /usr/share/gnome-games/aisleriot/games/fortunes.scm
+  /usr/share/gnome-games/aisleriot/games/fourteen.scm
+  /usr/share/gnome-games/aisleriot/games/freecell.scm
+  /usr/share/gnome-games/aisleriot/games/gaps.scm
+  /usr/share/gnome-games/aisleriot/games/gay_gordons.scm
+  /usr/share/gnome-games/aisleriot/games/glenwood.scm
+  /usr/share/gnome-games/aisleriot/games/golf.scm
+  /usr/share/gnome-games/aisleriot/games/gypsy.scm
+  /usr/share/gnome-games/aisleriot/games/helsinki.scm
+  /usr/share/gnome-games/aisleriot/games/hopscotch.scm
+  /usr/share/gnome-games/aisleriot/games/isabel.scm
+  /usr/share/gnome-games/aisleriot/games/jamestown.scm
+  /usr/share/gnome-games/aisleriot/games/jumbo.scm
+  /usr/share/gnome-games/aisleriot/games/kansas.scm
+  /usr/share/gnome-games/aisleriot/games/king_albert.scm
+  /usr/share/gnome-games/aisleriot/games/kings_audience.scm
+  /usr/share/gnome-games/aisleriot/games/klondike.scm
+  /usr/share/gnome-games/aisleriot/games/labyrinth.scm
+  /usr/share/gnome-games/aisleriot/games/lady_jane.scm
+  /usr/share/gnome-games/aisleriot/games/maze.scm
+  /usr/share/gnome-games/aisleriot/games/monte_carlo.scm
+  /usr/share/gnome-games/aisleriot/games/napoleons_tomb.scm
+  /usr/share/gnome-games/aisleriot/games/neighbor.scm
+  /usr/share/gnome-games/aisleriot/games/odessa.scm
+  /usr/share/gnome-games/aisleriot/games/osmosis.scm
+  /usr/share/gnome-games/aisleriot/games/peek.scm
+  /usr/share/gnome-games/aisleriot/games/pileon.scm
+  /usr/share/gnome-games/aisleriot/games/plait.scm
+  /usr/share/gnome-games/aisleriot/games/poker.scm
+  /usr/share/gnome-games/aisleriot/games/quatorze.scm
+  /usr/share/gnome-games/aisleriot/games/royal_east.scm
+  /usr/share/gnome-games/aisleriot/games/saratoga.scm
+  /usr/share/gnome-games/aisleriot/games/scorpion.scm
+  /usr/share/gnome-games/aisleriot/games/scuffle.scm
+  /usr/share/gnome-games/aisleriot/games/seahaven.scm
+  /usr/share/gnome-games/aisleriot/games/sir_tommy.scm
+  /usr/share/gnome-games/aisleriot/games/sol.scm
+  /usr/share/gnome-games/aisleriot/games/spider.scm
+  /usr/share/gnome-games/aisleriot/games/spider_three_decks.scm
+  /usr/share/gnome-games/aisleriot/games/spiderette.scm
+  /usr/share/gnome-games/aisleriot/games/straight_up.scm
+  /usr/share/gnome-games/aisleriot/games/streets_and_alleys.scm
+  /usr/share/gnome-games/aisleriot/games/ten_across.scm
+  /usr/share/gnome-games/aisleriot/games/thieves.scm
+  /usr/share/gnome-games/aisleriot/games/thirteen.scm
+  /usr/share/gnome-games/aisleriot/games/thumb_and_pouch.scm
+  /usr/share/gnome-games/aisleriot/games/treize.scm
+  /usr/share/gnome-games/aisleriot/games/triple_peaks.scm
+  /usr/share/gnome-games/aisleriot/games/union_square.scm
+  /usr/share/gnome-games/aisleriot/games/valentine.scm
+  /usr/share/gnome-games/aisleriot/games/westhaven.scm
+  /usr/share/gnome-games/aisleriot/games/whitehead.scm
+  /usr/share/gnome-games/aisleriot/games/will_o_the_wisp.scm
+  /usr/share/gnome-games/aisleriot/games/yield.scm
+  /usr/share/gnome-games/aisleriot/games/yukon.scm
+  /usr/share/gnome-games/aisleriot/games/zebra.scm
   /usr/share/gnome/help/aisleriot/C/agnes.xml
   /usr/share/gnome/help/aisleriot/C/aisleriot.xml
   /usr/share/gnome/help/aisleriot/C/athena.xml
@@ -138,6 +220,7 @@ Files included in the binary packages:
   /usr/share/gnome/help/aisleriot/C/legal.xml
   /usr/share/gnome/help/aisleriot/C/maze.xml
   /usr/share/gnome/help/aisleriot/C/monte_carlo.xml
+  /usr/share/gnome/help/aisleriot/C/napoleons_tomb.xml
   /usr/share/gnome/help/aisleriot/C/neighbor.xml
   /usr/share/gnome/help/aisleriot/C/odessa.xml
   /usr/share/gnome/help/aisleriot/C/osmosis.xml
@@ -153,6 +236,7 @@ Files included in the binary packages:
   /usr/share/gnome/help/aisleriot/C/seahaven.xml
   /usr/share/gnome/help/aisleriot/C/sir_tommy.xml
   /usr/share/gnome/help/aisleriot/C/spider.xml
+  /usr/share/gnome/help/aisleriot/C/spider_three_decks.xml
   /usr/share/gnome/help/aisleriot/C/spiderette.xml
   /usr/share/gnome/help/aisleriot/C/straight_up.xml
   /usr/share/gnome/help/aisleriot/C/streets_and_alleys.xml
@@ -170,183 +254,42 @@ Files included in the binary packages:
   /usr/share/gnome/help/aisleriot/C/yield.xml
   /usr/share/gnome/help/aisleriot/C/yukon.xml
   /usr/share/gnome/help/aisleriot/C/zebra.xml
-  /usr/share/gnome/help/aisleriot/fr/agnes.xml
+  /usr/share/gnome/help/aisleriot/es/aisleriot.xml
+  /usr/share/gnome/help/aisleriot/es/figures/camelot-goal.png
+  /usr/share/gnome/help/aisleriot/es/figures/clock-rules.png
   /usr/share/gnome/help/aisleriot/fr/aisleriot.xml
-  /usr/share/gnome/help/aisleriot/fr/athena.xml
-  /usr/share/gnome/help/aisleriot/fr/auld_lang_syne.xml
-  /usr/share/gnome/help/aisleriot/fr/aunt_mary.xml
-  /usr/share/gnome/help/aisleriot/fr/backbone.xml
-  /usr/share/gnome/help/aisleriot/fr/bakers_dozen.xml
-  /usr/share/gnome/help/aisleriot/fr/bakers_game.xml
-  /usr/share/gnome/help/aisleriot/fr/beleaguered_castle.xml
-  /usr/share/gnome/help/aisleriot/fr/block_ten.xml
-  /usr/share/gnome/help/aisleriot/fr/bristol.xml
-  /usr/share/gnome/help/aisleriot/fr/camelot.xml
-  /usr/share/gnome/help/aisleriot/fr/canfield.xml
-  /usr/share/gnome/help/aisleriot/fr/carpet.xml
-  /usr/share/gnome/help/aisleriot/fr/chessboard.xml
-  /usr/share/gnome/help/aisleriot/fr/clock.xml
-  /usr/share/gnome/help/aisleriot/fr/cover.xml
-  /usr/share/gnome/help/aisleriot/fr/cruel.xml
-  /usr/share/gnome/help/aisleriot/fr/definitions.xml
-  /usr/share/gnome/help/aisleriot/fr/diamond_mine.xml
-  /usr/share/gnome/help/aisleriot/fr/doublets.xml
-  /usr/share/gnome/help/aisleriot/fr/eagle-wing.xml
-  /usr/share/gnome/help/aisleriot/fr/easthaven.xml
-  /usr/share/gnome/help/aisleriot/fr/eight_off.xml
-  /usr/share/gnome/help/aisleriot/fr/elevator.xml
-  /usr/share/gnome/help/aisleriot/fr/escalator.xml
   /usr/share/gnome/help/aisleriot/fr/figures/camelot-goal.png
   /usr/share/gnome/help/aisleriot/fr/figures/clock-rules.png
-  /usr/share/gnome/help/aisleriot/fr/first_law.xml
-  /usr/share/gnome/help/aisleriot/fr/fortress.xml
-  /usr/share/gnome/help/aisleriot/fr/fortunes.xml
-  /usr/share/gnome/help/aisleriot/fr/fourteen.xml
-  /usr/share/gnome/help/aisleriot/fr/freecell.xml
-  /usr/share/gnome/help/aisleriot/fr/gaps.xml
-  /usr/share/gnome/help/aisleriot/fr/gay_gordons.xml
-  /usr/share/gnome/help/aisleriot/fr/glenwood.xml
-  /usr/share/gnome/help/aisleriot/fr/golf.xml
-  /usr/share/gnome/help/aisleriot/fr/gypsy.xml
-  /usr/share/gnome/help/aisleriot/fr/helsinki.xml
-  /usr/share/gnome/help/aisleriot/fr/hopscotch.xml
-  /usr/share/gnome/help/aisleriot/fr/isabel.xml
-  /usr/share/gnome/help/aisleriot/fr/jamestown.xml
-  /usr/share/gnome/help/aisleriot/fr/jumbo.xml
-  /usr/share/gnome/help/aisleriot/fr/kansas.xml
-  /usr/share/gnome/help/aisleriot/fr/king_albert.xml
-  /usr/share/gnome/help/aisleriot/fr/kings_audience.xml
-  /usr/share/gnome/help/aisleriot/fr/klondike.xml
-  /usr/share/gnome/help/aisleriot/fr/labyrinth.xml
-  /usr/share/gnome/help/aisleriot/fr/lady_jane.xml
-  /usr/share/gnome/help/aisleriot/fr/legal.xml
-  /usr/share/gnome/help/aisleriot/fr/maze.xml
-  /usr/share/gnome/help/aisleriot/fr/monte_carlo.xml
-  /usr/share/gnome/help/aisleriot/fr/neighbor.xml
-  /usr/share/gnome/help/aisleriot/fr/odessa.xml
-  /usr/share/gnome/help/aisleriot/fr/osmosis.xml
-  /usr/share/gnome/help/aisleriot/fr/peek.xml
-  /usr/share/gnome/help/aisleriot/fr/pileon.xml
-  /usr/share/gnome/help/aisleriot/fr/plait.xml
-  /usr/share/gnome/help/aisleriot/fr/poker.xml
-  /usr/share/gnome/help/aisleriot/fr/quatorze.xml
-  /usr/share/gnome/help/aisleriot/fr/royal_east.xml
-  /usr/share/gnome/help/aisleriot/fr/saratoga.xml
-  /usr/share/gnome/help/aisleriot/fr/scorpion.xml
-  /usr/share/gnome/help/aisleriot/fr/scuffle.xml
-  /usr/share/gnome/help/aisleriot/fr/seahaven.xml
-  /usr/share/gnome/help/aisleriot/fr/sir_tommy.xml
-  /usr/share/gnome/help/aisleriot/fr/spider.xml
-  /usr/share/gnome/help/aisleriot/fr/spider_one_suit.xml
-  /usr/share/gnome/help/aisleriot/fr/spider_two_suit.xml
-  /usr/share/gnome/help/aisleriot/fr/spiderette.xml
-  /usr/share/gnome/help/aisleriot/fr/straight_up.xml
-  /usr/share/gnome/help/aisleriot/fr/streets_and_alleys.xml
-  /usr/share/gnome/help/aisleriot/fr/ten_across.xml
-  /usr/share/gnome/help/aisleriot/fr/thieves.xml
-  /usr/share/gnome/help/aisleriot/fr/thirteen.xml
-  /usr/share/gnome/help/aisleriot/fr/thumb_and_pouch.xml
-  /usr/share/gnome/help/aisleriot/fr/treize.xml
-  /usr/share/gnome/help/aisleriot/fr/triple_peaks.xml
-  /usr/share/gnome/help/aisleriot/fr/union_square.xml
-  /usr/share/gnome/help/aisleriot/fr/valentine.xml
-  /usr/share/gnome/help/aisleriot/fr/westhaven.xml
-  /usr/share/gnome/help/aisleriot/fr/whitehead.xml
-  /usr/share/gnome/help/aisleriot/fr/will_o_the_wisp.xml
-  /usr/share/gnome/help/aisleriot/fr/yield.xml
-  /usr/share/gnome/help/aisleriot/fr/yukon.xml
-  /usr/share/gnome/help/aisleriot/fr/zebra.xml
+  /usr/share/gnome/help/aisleriot/oc/aisleriot.xml
+  /usr/share/gnome/help/aisleriot/oc/figures/camelot-goal.png
+  /usr/share/gnome/help/aisleriot/oc/figures/clock-rules.png
+  /usr/share/gnome/help/aisleriot/sv/aisleriot.xml
+  /usr/share/gnome/help/aisleriot/sv/figures/camelot-goal.png
+  /usr/share/gnome/help/aisleriot/sv/figures/clock-rules.png
+  /usr/share/icons/hicolor/16x16/apps/gnome-aisleriot.png
+  /usr/share/icons/hicolor/16x16/apps/gnome-freecell.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-aisleriot.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-freecell.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-aisleriot.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-freecell.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-aisleriot.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-freecell.png
   /usr/share/icons/hicolor/48x48/apps/gnome-aisleriot.png
   /usr/share/icons/hicolor/48x48/apps/gnome-freecell.png
-  /usr/share/omf/gnome-games/aisleriot-C.omf
-  /usr/share/omf/gnome-games/aisleriot-fr.omf
-  /usr/share/pixmaps/cards/baize.png
-  /usr/share/pixmaps/cards/slot.svg
-  /usr/share/sol-games/agnes.scm
-  /usr/share/sol-games/athena.scm
-  /usr/share/sol-games/auld_lang_syne.scm
-  /usr/share/sol-games/aunt_mary.scm
-  /usr/share/sol-games/backbone.scm
-  /usr/share/sol-games/bakers_dozen.scm
-  /usr/share/sol-games/bakers_game.scm
-  /usr/share/sol-games/beleaguered_castle.scm
-  /usr/share/sol-games/block_ten.scm
-  /usr/share/sol-games/bristol.scm
-  /usr/share/sol-games/camelot.scm
-  /usr/share/sol-games/canfield.scm
-  /usr/share/sol-games/carpet.scm
-  /usr/share/sol-games/chessboard.scm
-  /usr/share/sol-games/clock.scm
-  /usr/share/sol-games/cover.scm
-  /usr/share/sol-games/cruel.scm
-  /usr/share/sol-games/diamond_mine.scm
-  /usr/share/sol-games/doublets.scm
-  /usr/share/sol-games/eagle_wing.scm
-  /usr/share/sol-games/easthaven.scm
-  /usr/share/sol-games/eight_off.scm
-  /usr/share/sol-games/elevator.scm
-  /usr/share/sol-games/escalator.scm
-  /usr/share/sol-games/first_law.scm
-  /usr/share/sol-games/fortress.scm
-  /usr/share/sol-games/fortunes.scm
-  /usr/share/sol-games/fourteen.scm
-  /usr/share/sol-games/freecell.scm
-  /usr/share/sol-games/gaps.scm
-  /usr/share/sol-games/gay_gordons.scm
-  /usr/share/sol-games/glade/statistics.glade
-  /usr/share/sol-games/glenwood.scm
-  /usr/share/sol-games/golf.scm
-  /usr/share/sol-games/gypsy.scm
-  /usr/share/sol-games/helsinki.scm
-  /usr/share/sol-games/hopscotch.scm
-  /usr/share/sol-games/isabel.scm
-  /usr/share/sol-games/jamestown.scm
-  /usr/share/sol-games/jumbo.scm
-  /usr/share/sol-games/kansas.scm
-  /usr/share/sol-games/king_albert.scm
-  /usr/share/sol-games/kings_audience.scm
-  /usr/share/sol-games/klondike.scm
-  /usr/share/sol-games/labyrinth.scm
-  /usr/share/sol-games/lady_jane.scm
-  /usr/share/sol-games/maze.scm
-  /usr/share/sol-games/monte_carlo.scm
-  /usr/share/sol-games/neighbor.scm
-  /usr/share/sol-games/odessa.scm
-  /usr/share/sol-games/osmosis.scm
-  /usr/share/sol-games/peek.scm
-  /usr/share/sol-games/pileon.scm
-  /usr/share/sol-games/plait.scm
-  /usr/share/sol-games/poker.scm
-  /usr/share/sol-games/quatorze.scm
-  /usr/share/sol-games/royal_east.scm
-  /usr/share/sol-games/saratoga.scm
-  /usr/share/sol-games/scorpion.scm
-  /usr/share/sol-games/scuffle.scm
-  /usr/share/sol-games/seahaven.scm
-  /usr/share/sol-games/sir_tommy.scm
-  /usr/share/sol-games/sol.scm
-  /usr/share/sol-games/spider.scm
-  /usr/share/sol-games/spiderette.scm
-  /usr/share/sol-games/straight_up.scm
-  /usr/share/sol-games/streets_and_alleys.scm
-  /usr/share/sol-games/ten_across.scm
-  /usr/share/sol-games/thieves.scm
-  /usr/share/sol-games/thirteen.scm
-  /usr/share/sol-games/thumb_and_pouch.scm
-  /usr/share/sol-games/treize.scm
-  /usr/share/sol-games/triple_peaks.scm
-  /usr/share/sol-games/union_square.scm
-  /usr/share/sol-games/valentine.scm
-  /usr/share/sol-games/westhaven.scm
-  /usr/share/sol-games/whitehead.scm
-  /usr/share/sol-games/will_o_the_wisp.scm
-  /usr/share/sol-games/yield.scm
-  /usr/share/sol-games/yukon.scm
-  /usr/share/sol-games/zebra.scm
+  /usr/share/icons/hicolor/scalable/apps/gnome-aisleriot.svg
+  /usr/share/icons/hicolor/scalable/apps/gnome-freecell.png
+  /usr/share/omf/aisleriot/aisleriot-C.omf
+  /usr/share/omf/aisleriot/aisleriot-es.omf
+  /usr/share/omf/aisleriot/aisleriot-fr.omf
+  /usr/share/omf/aisleriot/aisleriot-oc.omf
+  /usr/share/omf/aisleriot/aisleriot-sv.omf
 
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.2.1-1 -----
 Version bump for GNOME 2.18.

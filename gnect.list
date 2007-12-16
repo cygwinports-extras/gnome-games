@@ -1,8 +1,9 @@
 usr/bin/gnect.exe
 usr/share/applications/gnect.desktop
-usr/share/gnect/white_ob.cn4.gz
+usr/share/doc/Cygwin/gnect-*.README
+usr/share/doc/gnect-*/
+usr/share/gnect/
 usr/share/gnome/help/gnect/
-usr/share/icons/hicolor/*/apps/gnome-four-in-a-row.png
+usr/share/icons/hicolor/*/apps/gnome-gnect.*
 usr/share/omf/gnect/
 usr/share/pixmaps/gnect/
-usr/share/doc/gnect-*/

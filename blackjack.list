@@ -1,9 +1,8 @@
 usr/bin/blackjack.exe
 usr/share/applications/blackjack.desktop
-usr/share/blackjack/
-usr/share/gnome/help/blackjack/
-usr/share/icons/hicolor/48x48/apps/gnome-blackjack.png
-usr/share/omf/gnome-games/blackjack-C.omf
-usr/share/pixmaps/blackjack/
-usr/share/pixmaps/cards/slots/white-outline.svg
+usr/share/doc/Cygwin/blackjack-*.README
 usr/share/doc/blackjack-*/
+usr/share/gnome-games/blackjack/
+usr/share/gnome/help/blackjack/
+usr/share/icons/hicolor/*/apps/gnome-blackjack.*
+usr/share/omf/blackjack/

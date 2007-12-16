@@ -1,8 +1,9 @@
 usr/bin/gnotravex.exe
 usr/share/applications/gnotravex.desktop
+usr/share/doc/Cygwin/gnotravex-*.README
+usr/share/doc/gnotravex-*/
 usr/share/gnome/help/gnotravex/
-usr/share/icons/hicolor/*/apps/gnome-tetravex.png
-usr/share/omf/gnome-games/gnotravex-C.omf
+usr/share/icons/hicolor/*/apps/gnome-tetravex.*
+usr/share/omf/gnotravex/
 usr/share/pixmaps/gnotravex/
 var/lib/games/gnotravex.*.scores
-usr/share/doc/gnotravex-*/

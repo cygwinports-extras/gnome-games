@@ -10,34 +10,35 @@ productivity lost while playing them.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libX11_6-1.1.1-1
-  libexpat0-1.95.8-1
+  GConf2-2.20.1-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gstreamer010-0.10.15-1
+  gtk2-x11-2.12.2-1
+  libX11_6-1.1.3-1
+  libexpat0-1.95.8-2
   libgetaddrinfo0-1.6.3-2
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
-  libgnutls13-1.6.2-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
+  libgnutls13-2.0.4-1
   libintl8-0.15-1
-  pango-1.16.4-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -49,43 +50,41 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+  unpack gnome-games-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.18.2.1-1.cygport all
+  cygport ./gnome-games-2.20.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.2-1.tar.bz2
 
-  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
-  /usr/src/blackjack-2.18.2.1-1.tar.bz2
-  /usr/src/glchess-2.18.2.1-1.tar.bz2
-  /usr/src/glines-2.18.2.1-1.tar.bz2
-  /usr/src/gnect-2.18.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
-  /usr/src/gnometris-2.18.2.1-1.tar.bz2
-  /usr/src/gnomine-2.18.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
-  /usr/src/gnotski-2.18.2.1-1.tar.bz2
-  /usr/src/gtali-2.18.2.1-1.tar.bz2
-  /usr/src/iagno-2.18.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.20.2-1.tar.bz2
+  /usr/src/blackjack-2.20.2-1.tar.bz2
+  /usr/src/glchess-2.20.2-1.tar.bz2
+  /usr/src/glines-2.20.2-1.tar.bz2
+  /usr/src/gnect-2.20.2-1.tar.bz2
+  /usr/src/gnibbles-2.20.2-1.tar.bz2
+  /usr/src/gnobots2-2.20.2-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
+  /usr/src/gnometris-2.20.2-1.tar.bz2
+  /usr/src/gnomine-2.20.2-1.tar.bz2
+  /usr/src/gnotravex-2.20.2-1.tar.bz2
+  /usr/src/gnotski-2.20.2-1.tar.bz2
+  /usr/src/gtali-2.20.2-1.tar.bz2
+  /usr/src/iagno-2.20.2-1.tar.bz2
+  /usr/src/mahjongg-2.20.2-1.tar.bz2
+  /usr/src/same-gnome-2.20.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-  /etc/gconf/schemas/gnibbles.schemas
-  /etc/sound/events/gnibbles.soundlist
   /usr/bin/gnibbles.exe
   /usr/share/applications/gnibbles.desktop
-  /usr/share/doc/gnibbles-2.18.2.1/AUTHORS
-  /usr/share/doc/gnibbles-2.18.2.1/ChangeLog
+  /usr/share/doc/gnibbles-2.20.2/AUTHORS
+  /usr/share/doc/gnibbles-2.20.2/ChangeLog
   /usr/share/gnibbles/level001.gnl
   /usr/share/gnibbles/level002.gnl
   /usr/share/gnibbles/level003.gnl
@@ -112,18 +111,54 @@ Files included in the binary packages:
   /usr/share/gnibbles/level024.gnl
   /usr/share/gnibbles/level025.gnl
   /usr/share/gnibbles/level026.gnl
+  /usr/share/gnome/help/gnibbles/C/figures/connect.png
   /usr/share/gnome/help/gnibbles/C/figures/game.png
   /usr/share/gnome/help/gnibbles/C/figures/intro.png
   /usr/share/gnome/help/gnibbles/C/figures/playing.png
+  /usr/share/gnome/help/gnibbles/C/figures/tables.png
   /usr/share/gnome/help/gnibbles/C/figures/worm_op.png
   /usr/share/gnome/help/gnibbles/C/gnibbles.xml
   /usr/share/gnome/help/gnibbles/C/legal.xml
-  /usr/share/icons/hicolor/16x16/apps/gnome-nibbles.png
-  /usr/share/icons/hicolor/22x22/apps/gnome-nibbles.png
-  /usr/share/icons/hicolor/32x32/apps/gnome-nibbles.png
-  /usr/share/icons/hicolor/48x48/apps/gnome-nibbles.png
-  /usr/share/icons/hicolor/scalable/apps/gnome-nibbles.svg
-  /usr/share/omf/gnome-games/gnibbles-C.omf
+  /usr/share/gnome/help/gnibbles/C/network-games.xml
+  /usr/share/gnome/help/gnibbles/es/figures/connect.png
+  /usr/share/gnome/help/gnibbles/es/figures/game.png
+  /usr/share/gnome/help/gnibbles/es/figures/intro.png
+  /usr/share/gnome/help/gnibbles/es/figures/playing.png
+  /usr/share/gnome/help/gnibbles/es/figures/tables.png
+  /usr/share/gnome/help/gnibbles/es/figures/worm_op.png
+  /usr/share/gnome/help/gnibbles/es/gnibbles.xml
+  /usr/share/gnome/help/gnibbles/fr/figures/connect.png
+  /usr/share/gnome/help/gnibbles/fr/figures/game.png
+  /usr/share/gnome/help/gnibbles/fr/figures/intro.png
+  /usr/share/gnome/help/gnibbles/fr/figures/playing.png
+  /usr/share/gnome/help/gnibbles/fr/figures/tables.png
+  /usr/share/gnome/help/gnibbles/fr/figures/worm_op.png
+  /usr/share/gnome/help/gnibbles/fr/gnibbles.xml
+  /usr/share/gnome/help/gnibbles/oc/figures/connect.png
+  /usr/share/gnome/help/gnibbles/oc/figures/game.png
+  /usr/share/gnome/help/gnibbles/oc/figures/intro.png
+  /usr/share/gnome/help/gnibbles/oc/figures/playing.png
+  /usr/share/gnome/help/gnibbles/oc/figures/tables.png
+  /usr/share/gnome/help/gnibbles/oc/figures/worm_op.png
+  /usr/share/gnome/help/gnibbles/oc/gnibbles.xml
+  /usr/share/gnome/help/gnibbles/sv/figures/connect.png
+  /usr/share/gnome/help/gnibbles/sv/figures/game.png
+  /usr/share/gnome/help/gnibbles/sv/figures/intro.png
+  /usr/share/gnome/help/gnibbles/sv/figures/playing.png
+  /usr/share/gnome/help/gnibbles/sv/figures/tables.png
+  /usr/share/gnome/help/gnibbles/sv/figures/worm_op.png
+  /usr/share/gnome/help/gnibbles/sv/gnibbles.xml
+  /usr/share/icons/hicolor/16x16/apps/gnome-gnibbles.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-gnibbles.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-gnibbles.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-gnibbles.png
+  /usr/share/icons/hicolor/48x48/apps/gnome-gnibbles.png
+  /usr/share/icons/hicolor/scalable/apps/gnome-gnibbles.svg
+  /usr/share/omf/gnibbles/gnibbles-C.omf
+  /usr/share/omf/gnibbles/gnibbles-es.omf
+  /usr/share/omf/gnibbles/gnibbles-fr.omf
+  /usr/share/omf/gnibbles/gnibbles-oc.omf
+  /usr/share/omf/gnibbles/gnibbles-sv.omf
   /usr/share/pixmaps/gnibbles/blank.svg
   /usr/share/pixmaps/gnibbles/bonus1.svg
   /usr/share/pixmaps/gnibbles/bonus2.svg
@@ -153,15 +188,6 @@ Files included in the binary packages:
   /usr/share/pixmaps/gnibbles/wall-tee-left.svg
   /usr/share/pixmaps/gnibbles/wall-tee-right.svg
   /usr/share/pixmaps/gnibbles/wall-tee-up.svg
-  /usr/share/sounds/gnibbles/appear.wav
-  /usr/share/sounds/gnibbles/bonus.wav
-  /usr/share/sounds/gnibbles/crash.wav
-  /usr/share/sounds/gnibbles/gobble.wav
-  /usr/share/sounds/gnibbles/laughter.wav
-  /usr/share/sounds/gnibbles/life.wav
-  /usr/share/sounds/gnibbles/pop.wav
-  /usr/share/sounds/gnibbles/reverse.wav
-  /usr/share/sounds/gnibbles/teleport.wav
   /var/lib/games/gnibbles.1.0.scores
   /var/lib/games/gnibbles.1.1.scores
   /var/lib/games/gnibbles.2.0.scores
@@ -170,10 +196,13 @@ Files included in the binary packages:
   /var/lib/games/gnibbles.3.1.scores
   /var/lib/games/gnibbles.4.0.scores
   /var/lib/games/gnibbles.4.1.scores
- 
+
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.2.1-1 -----
 Version bump for GNOME 2.18.

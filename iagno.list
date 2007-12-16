@@ -1,9 +1,8 @@
-etc/sound/events/iagno.soundlist
 usr/bin/iagno.exe
 usr/share/applications/iagno.desktop
+usr/share/doc/Cygwin/iagno-*.README
+usr/share/doc/iagno-*/
 usr/share/gnome/help/iagno/
 usr/share/icons/hicolor/*/apps/gnome-iagno.*
-usr/share/omf/gnome-games/iagno-C.omf
+usr/share/omf/iagno/
 usr/share/pixmaps/iagno/
-usr/share/sounds/iagno/
-usr/share/doc/iagno-*/

@@ -1,11 +1,10 @@
-etc/sound/events/gnibbles.soundlist
 usr/bin/gnibbles.exe
 usr/share/applications/gnibbles.desktop
+usr/share/doc/Cygwin/gnibbles-*.README
+usr/share/doc/gnibbles-*/
 usr/share/gnibbles/
 usr/share/gnome/help/gnibbles/
-usr/share/icons/hicolor/*/apps/gnome-nibbles.*
-usr/share/omf/gnome-games/gnibbles-C.omf
+usr/share/icons/hicolor/*/apps/gnome-gnibbles.*
+usr/share/omf/gnibbles/
 usr/share/pixmaps/gnibbles/
-usr/share/sounds/gnibbles/
 var/lib/games/gnibbles.*.scores
-usr/share/doc/gnibbles-*/

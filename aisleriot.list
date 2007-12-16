@@ -1,12 +1,10 @@
 usr/bin/sol.exe
 usr/share/applications/freecell.desktop
 usr/share/applications/sol.desktop
+usr/share/gnome-games/aisleriot/
 usr/share/gnome/help/aisleriot/
-usr/share/icons/hicolor/48x48/apps/gnome-aisleriot.png
-usr/share/icons/hicolor/48x48/apps/gnome-freecell.png
-usr/share/omf/gnome-games/aisleriot-C.omf
-usr/share/omf/gnome-games/aisleriot-fr.omf
-usr/share/pixmaps/cards/baize.png
-usr/share/pixmaps/cards/slot.svg
-usr/share/sol-games/
+usr/share/icons/hicolor/*/apps/gnome-aisleriot.*
+usr/share/icons/hicolor/*/apps/gnome-freecell.*
+usr/share/omf/aisleriot/
 usr/share/doc/aisleriot-*/
+usr/share/doc/Cygwin/aisleriot-*.README

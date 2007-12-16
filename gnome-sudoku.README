@@ -9,23 +9,29 @@ again. Of course we can't be held responsible for the time and
 productivity lost while playing them.
 
 Runtime requirements:
-
+  python-2.5.1-3
+  python-cairo-1.4.0-1
+  python-gconf2-2.20.1-1
+  python-gnome2-2.20.1-1
+  python-gnomeprint2-2.20.0-1
+  python-gobject-2.14.0-1
+  python-gtk2-2.12.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -37,32 +43,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+  unpack gnome-games-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.18.2.1-1.cygport all
+  cygport ./gnome-games-2.20.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.2-1.tar.bz2
 
-  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
-  /usr/src/blackjack-2.18.2.1-1.tar.bz2
-  /usr/src/glchess-2.18.2.1-1.tar.bz2
-  /usr/src/glines-2.18.2.1-1.tar.bz2
-  /usr/src/gnect-2.18.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
-  /usr/src/gnometris-2.18.2.1-1.tar.bz2
-  /usr/src/gnomine-2.18.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
-  /usr/src/gnotski-2.18.2.1-1.tar.bz2
-  /usr/src/gtali-2.18.2.1-1.tar.bz2
-  /usr/src/iagno-2.18.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.20.2-1.tar.bz2
+  /usr/src/blackjack-2.20.2-1.tar.bz2
+  /usr/src/glchess-2.20.2-1.tar.bz2
+  /usr/src/glines-2.20.2-1.tar.bz2
+  /usr/src/gnect-2.20.2-1.tar.bz2
+  /usr/src/gnibbles-2.20.2-1.tar.bz2
+  /usr/src/gnobots2-2.20.2-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
+  /usr/src/gnometris-2.20.2-1.tar.bz2
+  /usr/src/gnomine-2.20.2-1.tar.bz2
+  /usr/src/gnotravex-2.20.2-1.tar.bz2
+  /usr/src/gnotski-2.20.2-1.tar.bz2
+  /usr/src/gtali-2.20.2-1.tar.bz2
+  /usr/src/iagno-2.20.2-1.tar.bz2
+  /usr/src/mahjongg-2.20.2-1.tar.bz2
+  /usr/src/same-gnome-2.20.2-1.tar.bz2
 
 -------------------------------------------
 
@@ -133,9 +139,9 @@ Files included in the binary packages:
   /usr/lib/python2.5/site-packages/gnome_sudoku/timer.pyc
   /usr/lib/python2.5/site-packages/gnome_sudoku/timer.pyo
   /usr/share/applications/gnome-sudoku.desktop
-  /usr/share/doc/gnome-sudoku-2.18.2.1/AUTHORS
-  /usr/share/doc/gnome-sudoku-2.18.2.1/ChangeLog
-  /usr/share/doc/gnome-sudoku-2.18.2.1/README
+  /usr/share/doc/gnome-sudoku-2.20.2/AUTHORS
+  /usr/share/doc/gnome-sudoku-2.20.2/ChangeLog
+  /usr/share/doc/gnome-sudoku-2.20.2/README
   /usr/share/gnome-sudoku/high_scores.glade
   /usr/share/gnome-sudoku/new_game.glade
   /usr/share/gnome-sudoku/open_game.glade
@@ -150,12 +156,49 @@ Files included in the binary packages:
   /usr/share/gnome/help/gnome-sudoku/C/figures/hints.png
   /usr/share/gnome/help/gnome-sudoku/C/gnome-sudoku.xml
   /usr/share/gnome/help/gnome-sudoku/C/legal.xml
+  /usr/share/gnome/help/gnome-sudoku/es/figures/Print_Sudokus.png
+  /usr/share/gnome/help/gnome-sudoku/es/figures/always_show_hint.png
+  /usr/share/gnome/help/gnome-sudoku/es/figures/error_highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/es/figures/highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/es/figures/hints.png
+  /usr/share/gnome/help/gnome-sudoku/es/gnome-sudoku.xml
+  /usr/share/gnome/help/gnome-sudoku/fr/figures/Print_Sudokus.png
+  /usr/share/gnome/help/gnome-sudoku/fr/figures/always_show_hint.png
+  /usr/share/gnome/help/gnome-sudoku/fr/figures/error_highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/fr/figures/highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/fr/figures/hints.png
+  /usr/share/gnome/help/gnome-sudoku/fr/gnome-sudoku.xml
+  /usr/share/gnome/help/gnome-sudoku/oc/figures/Print_Sudokus.png
+  /usr/share/gnome/help/gnome-sudoku/oc/figures/always_show_hint.png
+  /usr/share/gnome/help/gnome-sudoku/oc/figures/error_highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/oc/figures/highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/oc/figures/hints.png
+  /usr/share/gnome/help/gnome-sudoku/oc/gnome-sudoku.xml
+  /usr/share/gnome/help/gnome-sudoku/sv/figures/Print_Sudokus.png
+  /usr/share/gnome/help/gnome-sudoku/sv/figures/always_show_hint.png
+  /usr/share/gnome/help/gnome-sudoku/sv/figures/error_highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/sv/figures/highlighting.png
+  /usr/share/gnome/help/gnome-sudoku/sv/figures/hints.png
+  /usr/share/gnome/help/gnome-sudoku/sv/gnome-sudoku.xml
+  /usr/share/icons/hicolor/16x16/apps/gnome-sudoku.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-sudoku.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-sudoku.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-sudoku.png
+  /usr/share/icons/hicolor/48x48/apps/gnome-sudoku.png
+  /usr/share/icons/hicolor/scalable/apps/gnome-sudoku.svg
+  /usr/share/omf/gnome-sudoku/gnome-sudoku-C.omf
+  /usr/share/omf/gnome-sudoku/gnome-sudoku-es.omf
+  /usr/share/omf/gnome-sudoku/gnome-sudoku-fr.omf
+  /usr/share/omf/gnome-sudoku/gnome-sudoku-oc.omf
+  /usr/share/omf/gnome-sudoku/gnome-sudoku-sv.omf
   /usr/share/pixmaps/gnome-sudoku/footprints.png
-  /usr/share/pixmaps/sudoku.png
 
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.2.1-1 -----
 Version bump for GNOME 2.18.

@@ -1,8 +1,10 @@
 usr/bin/gnome-sudoku
-usr/lib/python*/site-packages/gnome_sudoku/
+usr/lib/python2.5/site-packages/gnome_sudoku/
 usr/share/applications/gnome-sudoku.desktop
+usr/share/doc/Cygwin/gnome-sudoku-*.README
 usr/share/doc/gnome-sudoku-*/
-usr/share/gnome/help/gnome-sudoku/
 usr/share/gnome-sudoku/
+usr/share/gnome/help/gnome-sudoku/
+usr/share/icons/hicolor/*/apps/gnome-sudoku.*
+usr/share/omf/gnome-sudoku/
 usr/share/pixmaps/gnome-sudoku/
-usr/share/pixmaps/sudoku.png

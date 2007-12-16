@@ -1,8 +1,9 @@
 usr/bin/gnotski.exe
 usr/share/applications/gnotski.desktop
-usr/share/gnome/help/gnotski/
-usr/share/icons/hicolor/*/apps/gnome-klotski.png
-usr/share/omf/gnome-games/gnotski-C.omf
-usr/share/pixmaps/gnotski.svg
-var/lib/games/gnotski.*.scores
+usr/share/doc/Cygwin/gnotski-*.README
 usr/share/doc/gnotski-*/
+usr/share/gnome-games/gnotski/
+usr/share/gnome/help/gnotski/
+usr/share/icons/hicolor/*/apps/gnome-klotski.*
+usr/share/omf/gnotski/
+var/lib/games/gnotski.*.scores

@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: cygwin GConf2 glib2 gtk2-x11 libgnome2 libgnomeui2 libintl8 libxml2 pango zlib
+requires: cygwin gnome-games GConf2 glib2 gtk2-x11 libcairo2 libgnome2 libgnomeui2 libintl8 librsvg2 libxml2 pango zlib
 external-source: gnome-games
 sdesc: "GNOME blackjack card game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from

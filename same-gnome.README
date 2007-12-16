@@ -10,29 +10,29 @@ productivity lost while playing them.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
+  GConf2-2.20.1-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
   libintl8-0.15-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.35.5-1
+  intltool-0.36.3-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -44,42 +44,41 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.18.2.1-1-src.tar.bz2
+  unpack gnome-games-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.18.2.1-1.cygport all
+  cygport ./gnome-games-2.20.2-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.18.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.18.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.2-1.tar.bz2
 
-  /usr/src/aisleriot-2.18.2.1-1.tar.bz2
-  /usr/src/blackjack-2.18.2.1-1.tar.bz2
-  /usr/src/glchess-2.18.2.1-1.tar.bz2
-  /usr/src/glines-2.18.2.1-1.tar.bz2
-  /usr/src/gnect-2.18.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.18.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.18.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.18.2.1-1.tar.bz2
-  /usr/src/gnometris-2.18.2.1-1.tar.bz2
-  /usr/src/gnomine-2.18.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.18.2.1-1.tar.bz2
-  /usr/src/gnotski-2.18.2.1-1.tar.bz2
-  /usr/src/gtali-2.18.2.1-1.tar.bz2
-  /usr/src/iagno-2.18.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.18.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.18.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.20.2-1.tar.bz2
+  /usr/src/blackjack-2.20.2-1.tar.bz2
+  /usr/src/glchess-2.20.2-1.tar.bz2
+  /usr/src/glines-2.20.2-1.tar.bz2
+  /usr/src/gnect-2.20.2-1.tar.bz2
+  /usr/src/gnibbles-2.20.2-1.tar.bz2
+  /usr/src/gnobots2-2.20.2-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
+  /usr/src/gnometris-2.20.2-1.tar.bz2
+  /usr/src/gnomine-2.20.2-1.tar.bz2
+  /usr/src/gnotravex-2.20.2-1.tar.bz2
+  /usr/src/gnotski-2.20.2-1.tar.bz2
+  /usr/src/gtali-2.20.2-1.tar.bz2
+  /usr/src/iagno-2.20.2-1.tar.bz2
+  /usr/src/mahjongg-2.20.2-1.tar.bz2
+  /usr/src/same-gnome-2.20.2-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-  /etc/gconf/schemas/same-gnome.schemas
   /usr/bin/same-gnome.exe
   /usr/share/applications/same-gnome.desktop
-  /usr/share/doc/same-gnome-2.18.2.1/ChangeLog
-  /usr/share/doc/same-gnome-2.18.2.1/README
+  /usr/share/doc/same-gnome-2.20.2/ChangeLog
+  /usr/share/doc/same-gnome-2.20.2/README
   /usr/share/gnome-games/same-gnome/themes/2.10/planets.png
   /usr/share/gnome-games/same-gnome/themes/2.10/stones.png
   /usr/share/gnome/help/same-gnome/C/figures/play.png
@@ -95,26 +94,39 @@ Files included in the binary packages:
   /usr/share/gnome/help/same-gnome/fr/figures/play.png
   /usr/share/gnome/help/same-gnome/fr/figures/start-up.png
   /usr/share/gnome/help/same-gnome/fr/same-gnome.xml
+  /usr/share/gnome/help/same-gnome/oc/figures/play.png
+  /usr/share/gnome/help/same-gnome/oc/figures/start-up.png
+  /usr/share/gnome/help/same-gnome/oc/same-gnome.xml
   /usr/share/gnome/help/same-gnome/ru/figures/play.png
   /usr/share/gnome/help/same-gnome/ru/figures/start-up.png
   /usr/share/gnome/help/same-gnome/ru/same-gnome.xml
   /usr/share/gnome/help/same-gnome/sv/figures/play.png
   /usr/share/gnome/help/same-gnome/sv/figures/start-up.png
   /usr/share/gnome/help/same-gnome/sv/same-gnome.xml
-  /usr/share/icons/hicolor/48x48/apps/gnome-same-gnome.png
+  /usr/share/icons/hicolor/16x16/apps/gnome-samegnome.png
+  /usr/share/icons/hicolor/22x22/apps/gnome-samegnome.png
+  /usr/share/icons/hicolor/24x24/apps/gnome-samegnome.png
+  /usr/share/icons/hicolor/32x32/apps/gnome-samegnome.png
+  /usr/share/icons/hicolor/48x48/apps/gnome-samegnome.png
+  /usr/share/icons/hicolor/scalable/apps/gnome-samegnome.svg
   /usr/share/omf/same-gnome/same-gnome-C.omf
   /usr/share/omf/same-gnome/same-gnome-en_GB.omf
   /usr/share/omf/same-gnome/same-gnome-es.omf
   /usr/share/omf/same-gnome/same-gnome-fr.omf
+  /usr/share/omf/same-gnome/same-gnome-oc.omf
   /usr/share/omf/same-gnome/same-gnome-ru.omf
   /usr/share/omf/same-gnome/same-gnome-sv.omf
   /var/lib/games/same-gnome.Large.scores
   /var/lib/games/same-gnome.Medium.scores
   /var/lib/games/same-gnome.Small.scores
 
+
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 2.18.2.1-1 -----
 Version bump for GNOME 2.18.
