@@ -9,13 +9,13 @@ again. Of course we can't be held responsible for the time and
 productivity lost while playing them.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   GConf2-2.20.1-1
-  gdk-pixbuf2-2.12.2-1
-  glib2-2.14.4-1
+  gdk-pixbuf2-2.12.5-1
+  glib2-2.14.5-1
   gnome-vfs2-2.20.1-1
   gstreamer010-0.10.15-1
-  gtk2-x11-2.12.2-1
+  gtk2-x11-2.12.5-1
   libcairo2-1.4.12-1
   libgnome2-2.20.1.1-1
   libgnomeui2-2.20.1.1-1
@@ -24,12 +24,12 @@ Runtime requirements:
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20060817-1
   cygport-0.3.7-1
-  gawk-3.1.5-4
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   intltool-0.36.3-1
@@ -48,32 +48,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.20.2-1-src.tar.bz2
+  unpack gnome-games-2.20.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.20.2-1.cygport all
+  cygport ./gnome-games-2.20.3-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.20.2-1-src.tar.bz2
-  /usr/src/gnome-games-2.20.2-1.tar.bz2
+  /usr/src/gnome-games-2.20.3-1-src.tar.bz2
+  /usr/src/gnome-games-2.20.3-1.tar.bz2
 
-  /usr/src/aisleriot-2.20.2-1.tar.bz2
-  /usr/src/blackjack-2.20.2-1.tar.bz2
-  /usr/src/glchess-2.20.2-1.tar.bz2
-  /usr/src/glines-2.20.2-1.tar.bz2
-  /usr/src/gnect-2.20.2-1.tar.bz2
-  /usr/src/gnibbles-2.20.2-1.tar.bz2
-  /usr/src/gnobots2-2.20.2-1.tar.bz2
-  /usr/src/gnome-sudoku-2.20.2-1.tar.bz2
-  /usr/src/gnometris-2.20.2-1.tar.bz2
-  /usr/src/gnomine-2.20.2-1.tar.bz2
-  /usr/src/gnotravex-2.20.2-1.tar.bz2
-  /usr/src/gnotski-2.20.2-1.tar.bz2
-  /usr/src/gtali-2.20.2-1.tar.bz2
-  /usr/src/iagno-2.20.2-1.tar.bz2
-  /usr/src/mahjongg-2.20.2-1.tar.bz2
-  /usr/src/same-gnome-2.20.2-1.tar.bz2
+  /usr/src/aisleriot-2.20.3-1.tar.bz2
+  /usr/src/blackjack-2.20.3-1.tar.bz2
+  /usr/src/glchess-2.20.3-1.tar.bz2
+  /usr/src/glines-2.20.3-1.tar.bz2
+  /usr/src/gnect-2.20.3-1.tar.bz2
+  /usr/src/gnibbles-2.20.3-1.tar.bz2
+  /usr/src/gnobots2-2.20.3-1.tar.bz2
+  /usr/src/gnome-sudoku-2.20.3-1.tar.bz2
+  /usr/src/gnometris-2.20.3-1.tar.bz2
+  /usr/src/gnomine-2.20.3-1.tar.bz2
+  /usr/src/gnotravex-2.20.3-1.tar.bz2
+  /usr/src/gnotski-2.20.3-1.tar.bz2
+  /usr/src/gtali-2.20.3-1.tar.bz2
+  /usr/src/iagno-2.20.3-1.tar.bz2
+  /usr/src/mahjongg-2.20.3-1.tar.bz2
+  /usr/src/same-gnome-2.20.3-1.tar.bz2
 
 -------------------------------------------
 
@@ -81,9 +81,9 @@ Files included in the binary packages:
 
   /usr/bin/gnometris.exe
   /usr/share/applications/gnometris.desktop
-  /usr/share/doc/gnometris-2.20.2/AUTHORS
-  /usr/share/doc/gnometris-2.20.2/ChangeLog
-  /usr/share/doc/gnometris-2.20.2/TODO
+  /usr/share/doc/gnometris-2.20.3/AUTHORS
+  /usr/share/doc/gnometris-2.20.3/ChangeLog
+  /usr/share/doc/gnometris-2.20.3/TODO
   /usr/share/gnome/help/gnometris/C/gnometris.xml
   /usr/share/gnome/help/gnometris/C/legal.xml
   /usr/share/gnome/help/gnometris/el/gnometris.xml
@@ -111,6 +111,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.20.3-1 -----
+Version bump.
 
 ----- version 2.20.2-1 -----
 Version bump for GNOME 2.20.
