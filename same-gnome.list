@@ -1,3 +1,6 @@
+etc/gconf/schemas/same-gnome.schemas
+etc/postinstall/same-gnome.sh
+etc/preremove/same-gnome.sh
 usr/bin/same-gnome.exe
 usr/share/applications/same-gnome.desktop
 usr/share/doc/Cygwin/same-gnome-*.README

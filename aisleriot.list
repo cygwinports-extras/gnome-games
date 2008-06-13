@@ -1,10 +1,13 @@
+etc/gconf/schemas/aisleriot.schemas
+etc/postinstall/aisleriot.sh
+etc/preremove/aisleriot.sh
 usr/bin/sol.exe
 usr/share/applications/freecell.desktop
 usr/share/applications/sol.desktop
+usr/share/doc/Cygwin/aisleriot-*.README
+usr/share/doc/aisleriot-*/
 usr/share/gnome-games/aisleriot/
 usr/share/gnome/help/aisleriot/
 usr/share/icons/hicolor/*/apps/gnome-aisleriot.*
 usr/share/icons/hicolor/*/apps/gnome-freecell.*
 usr/share/omf/aisleriot/
-usr/share/doc/aisleriot-*/
-usr/share/doc/Cygwin/aisleriot-*.README

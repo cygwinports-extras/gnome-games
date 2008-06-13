@@ -1,3 +1,6 @@
+etc/gconf/schemas/blackjack.schemas
+etc/postinstall/blackjack.sh
+etc/preremove/blackjack.sh
 usr/bin/blackjack.exe
 usr/share/applications/blackjack.desktop
 usr/share/doc/Cygwin/blackjack-*.README

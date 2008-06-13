@@ -1,3 +1,6 @@
+etc/gconf/schemas/mahjongg.schemas
+etc/postinstall/mahjongg.sh
+etc/preremove/mahjongg.sh
 usr/bin/mahjongg.exe
 usr/share/applications/mahjongg.desktop
 usr/share/doc/Cygwin/mahjongg-*.README

@@ -1,3 +1,6 @@
+etc/gconf/schemas/glchess.schemas
+etc/postinstall/glchess.sh
+etc/preremove/glchess.sh
 usr/bin/glchess
 usr/lib/python2.5/site-packages/glchess/
 usr/share/applications/glchess.desktop

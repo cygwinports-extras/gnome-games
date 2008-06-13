@@ -1,4 +1,11 @@
+etc/gconf/schemas/gnibbles.schemas
+etc/ggz/modules/gnibbles.dsc
+etc/ggzd/games/gnibbles-server.dsc
+etc/ggzd/rooms/gnibbles.room
+etc/postinstall/gnibbles.sh
+etc/preremove/gnibbles.sh
 usr/bin/gnibbles.exe
+usr/lib/ggz/gnibblesd.exe
 usr/share/applications/gnibbles.desktop
 usr/share/doc/Cygwin/gnibbles-*.README
 usr/share/doc/gnibbles-*/

@@ -1,3 +1,6 @@
+etc/gconf/schemas/gnotravex.schemas
+etc/postinstall/gnotravex.sh
+etc/preremove/gnotravex.sh
 usr/bin/gnotravex.exe
 usr/share/applications/gnotravex.desktop
 usr/share/doc/Cygwin/gnotravex-*.README

@@ -1,6 +1,6 @@
 category: Games Gnome
-requires: cygwin GConf2 glib2 gtk2-x11 libcairo2 librsvg2
-sdesc: "Collection of games for the GNOME Desktop (common data)"
+requires: aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnome-sudoku gnometris gnomine gnotravex gnotski gtali iagno mahjongg same-gnome
+sdesc: "Collection of games for the GNOME Desktop (meta-package)"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
 the GNOME desktop project. They represent many of the popular games and
 include card games, puzzle games and arcade games. They are meant to be

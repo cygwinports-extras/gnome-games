@@ -1,4 +1,11 @@
+etc/gconf/schemas/iagno.schemas
+etc/ggz/modules/iagno.dsc
+etc/ggzd/games/iagno-server.dsc
+etc/ggzd/rooms/iagno.room
+etc/postinstall/iagno.sh
+etc/preremove/iagno.sh
 usr/bin/iagno.exe
+usr/lib/ggz/iagnod.exe
 usr/share/applications/iagno.desktop
 usr/share/doc/Cygwin/iagno-*.README
 usr/share/doc/iagno-*/

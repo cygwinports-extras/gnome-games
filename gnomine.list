@@ -1,3 +1,6 @@
+etc/gconf/schemas/gnomine.schemas
+etc/postinstall/gnomine.sh
+etc/preremove/gnomine.sh
 usr/bin/gnomine.exe
 usr/share/applications/gnomine.desktop
 usr/share/doc/Cygwin/gnomine-*.README

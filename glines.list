@@ -1,3 +1,6 @@
+etc/gconf/schemas/glines.schemas
+etc/postinstall/glines.sh
+etc/preremove/glines.sh
 usr/bin/glines.exe
 usr/share/applications/glines.desktop
 usr/share/doc/Cygwin/glines-*.README

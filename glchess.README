@@ -10,30 +10,29 @@ productivity lost while playing them.
 
 Runtime requirements:
   gnuchess
-  python-2.5.1-3
-  python-cairo-1.4.0-1
-  python-gconf2-2.20.1-1
-  python-gnome2-2.20.1-1
-  python-gobject-2.14.0-1
-  python-gtk2-2.12.0-1
+  python-2.5.2-1
+  python-cairo-1.4.14-1
+  python-gconf2-2.22.1-1
+  python-gnome2-2.22.1-1
+  python-gobject-2.14.2-1
+  python-gtk2-2.12.1-1
   python-gtkglext-1.1.0-1
   python-opengl-3.0.0a6-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
   autoconf2.5-2.61-1
-  automake1.10-1.10-1
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.11-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.36.3-1
-  libtool1.5-1.5.23a-2
+  intltool-0.37.1-1
+  libtool-2.2.2-2
   make-3.81-1
   pkg-config-0.21-1
-  rarian-0.6.0-1
+  rarian-0.8.0-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -45,37 +44,40 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.20.3-1-src.tar.bz2
+  unpack gnome-games-2.22.2.1-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.20.3-1.cygport all
+  cygport ./gnome-games-2.22.2.1-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.20.3-1-src.tar.bz2
-  /usr/src/gnome-games-2.20.3-1.tar.bz2
+  /usr/src/gnome-games-2.22.2.1-1-src.tar.bz2
+  /usr/src/gnome-games-2.22.2.1-1.tar.bz2
 
-  /usr/src/aisleriot-2.20.3-1.tar.bz2
-  /usr/src/blackjack-2.20.3-1.tar.bz2
-  /usr/src/glchess-2.20.3-1.tar.bz2
-  /usr/src/glines-2.20.3-1.tar.bz2
-  /usr/src/gnect-2.20.3-1.tar.bz2
-  /usr/src/gnibbles-2.20.3-1.tar.bz2
-  /usr/src/gnobots2-2.20.3-1.tar.bz2
-  /usr/src/gnome-sudoku-2.20.3-1.tar.bz2
-  /usr/src/gnometris-2.20.3-1.tar.bz2
-  /usr/src/gnomine-2.20.3-1.tar.bz2
-  /usr/src/gnotravex-2.20.3-1.tar.bz2
-  /usr/src/gnotski-2.20.3-1.tar.bz2
-  /usr/src/gtali-2.20.3-1.tar.bz2
-  /usr/src/iagno-2.20.3-1.tar.bz2
-  /usr/src/mahjongg-2.20.3-1.tar.bz2
-  /usr/src/same-gnome-2.20.3-1.tar.bz2
+  /usr/src/aisleriot-2.22.2.1-1.tar.bz2
+  /usr/src/blackjack-2.22.2.1-1.tar.bz2
+  /usr/src/glchess-2.22.2.1-1.tar.bz2
+  /usr/src/glines-2.22.2.1-1.tar.bz2
+  /usr/src/gnect-2.22.2.1-1.tar.bz2
+  /usr/src/gnibbles-2.22.2.1-1.tar.bz2
+  /usr/src/gnobots2-2.22.2.1-1.tar.bz2
+  /usr/src/gnome-sudoku-2.22.2.1-1.tar.bz2
+  /usr/src/gnometris-2.22.2.1-1.tar.bz2
+  /usr/src/gnomine-2.22.2.1-1.tar.bz2
+  /usr/src/gnotravex-2.22.2.1-1.tar.bz2
+  /usr/src/gnotski-2.22.2.1-1.tar.bz2
+  /usr/src/gtali-2.22.2.1-1.tar.bz2
+  /usr/src/iagno-2.22.2.1-1.tar.bz2
+  /usr/src/mahjongg-2.22.2.1-1.tar.bz2
+  /usr/src/same-gnome-2.22.2.1-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
+  /etc/gconf/schemas/glchess.schemas
+  /etc/postinstall/glchess.sh
+  /etc/preremove/glchess.sh
   /usr/bin/glchess
   /usr/lib/python2.5/site-packages/glchess/__init__.py
   /usr/lib/python2.5/site-packages/glchess/__init__.pyc
@@ -95,6 +97,21 @@ Files included in the binary packages:
   /usr/lib/python2.5/site-packages/glchess/chess/board.py
   /usr/lib/python2.5/site-packages/glchess/chess/board.pyc
   /usr/lib/python2.5/site-packages/glchess/chess/board.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/client.py
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/client.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/client.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/server.py
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/server.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/server.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/style12.py
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/style12.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/style12.pyo
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/telnet.py
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/telnet.pyc
+  /usr/lib/python2.5/site-packages/glchess/chess/fics/telnet.pyo
   /usr/lib/python2.5/site-packages/glchess/chess/lan.py
   /usr/lib/python2.5/site-packages/glchess/chess/lan.pyc
   /usr/lib/python2.5/site-packages/glchess/chess/lan.pyo
@@ -110,9 +127,24 @@ Files included in the binary packages:
   /usr/lib/python2.5/site-packages/glchess/defaults.py
   /usr/lib/python2.5/site-packages/glchess/defaults.pyc
   /usr/lib/python2.5/site-packages/glchess/defaults.pyo
+  /usr/lib/python2.5/site-packages/glchess/display.py
+  /usr/lib/python2.5/site-packages/glchess/display.pyc
+  /usr/lib/python2.5/site-packages/glchess/display.pyo
   /usr/lib/python2.5/site-packages/glchess/game.py
   /usr/lib/python2.5/site-packages/glchess/game.pyc
   /usr/lib/python2.5/site-packages/glchess/game.pyo
+  /usr/lib/python2.5/site-packages/glchess/ggz/__init__.py
+  /usr/lib/python2.5/site-packages/glchess/ggz/__init__.pyc
+  /usr/lib/python2.5/site-packages/glchess/ggz/__init__.pyo
+  /usr/lib/python2.5/site-packages/glchess/ggz/chess.py
+  /usr/lib/python2.5/site-packages/glchess/ggz/chess.pyc
+  /usr/lib/python2.5/site-packages/glchess/ggz/chess.pyo
+  /usr/lib/python2.5/site-packages/glchess/ggz/client.py
+  /usr/lib/python2.5/site-packages/glchess/ggz/client.pyc
+  /usr/lib/python2.5/site-packages/glchess/ggz/client.pyo
+  /usr/lib/python2.5/site-packages/glchess/ggz/protocol.py
+  /usr/lib/python2.5/site-packages/glchess/ggz/protocol.pyc
+  /usr/lib/python2.5/site-packages/glchess/ggz/protocol.pyo
   /usr/lib/python2.5/site-packages/glchess/glchess.py
   /usr/lib/python2.5/site-packages/glchess/glchess.pyc
   /usr/lib/python2.5/site-packages/glchess/glchess.pyo
@@ -128,9 +160,24 @@ Files included in the binary packages:
   /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.py
   /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.pyc
   /usr/lib/python2.5/site-packages/glchess/gtkui/gtkui.pyo
+  /usr/lib/python2.5/site-packages/glchess/gtkui/log.py
+  /usr/lib/python2.5/site-packages/glchess/gtkui/log.pyc
+  /usr/lib/python2.5/site-packages/glchess/gtkui/log.pyo
+  /usr/lib/python2.5/site-packages/glchess/gtkui/network.py
+  /usr/lib/python2.5/site-packages/glchess/gtkui/network.pyc
+  /usr/lib/python2.5/site-packages/glchess/gtkui/network.pyo
+  /usr/lib/python2.5/site-packages/glchess/history.py
+  /usr/lib/python2.5/site-packages/glchess/history.pyc
+  /usr/lib/python2.5/site-packages/glchess/history.pyo
   /usr/lib/python2.5/site-packages/glchess/main.py
   /usr/lib/python2.5/site-packages/glchess/main.pyc
   /usr/lib/python2.5/site-packages/glchess/main.pyo
+  /usr/lib/python2.5/site-packages/glchess/network.py
+  /usr/lib/python2.5/site-packages/glchess/network.pyc
+  /usr/lib/python2.5/site-packages/glchess/network.pyo
+  /usr/lib/python2.5/site-packages/glchess/player.py
+  /usr/lib/python2.5/site-packages/glchess/player.pyc
+  /usr/lib/python2.5/site-packages/glchess/player.pyo
   /usr/lib/python2.5/site-packages/glchess/scene/__init__.py
   /usr/lib/python2.5/site-packages/glchess/scene/__init__.pyc
   /usr/lib/python2.5/site-packages/glchess/scene/__init__.pyo
@@ -171,23 +218,58 @@ Files included in the binary packages:
   /usr/lib/python2.5/site-packages/glchess/ui/ui.pyc
   /usr/lib/python2.5/site-packages/glchess/ui/ui.pyo
   /usr/share/applications/glchess.desktop
-  /usr/share/doc/glchess-2.20.3/ChangeLog
-  /usr/share/doc/glchess-2.20.3/README
-  /usr/share/doc/glchess-2.20.3/TODO
-  /usr/share/glchess/ai.glade
+  /usr/share/doc/glchess-2.22.2.1/ChangeLog
+  /usr/share/doc/glchess-2.22.2.1/README
+  /usr/share/doc/glchess-2.22.2.1/TODO
   /usr/share/glchess/ai.xml
   /usr/share/glchess/chess_view.glade
   /usr/share/glchess/glchess.glade
   /usr/share/glchess/load_game.glade
+  /usr/share/glchess/log.glade
+  /usr/share/glchess/network_game.glade
   /usr/share/glchess/new_game.glade
+  /usr/share/glchess/preferences.glade
   /usr/share/glchess/save_game.glade
+  /usr/share/gnome/help/glchess/C/figures/game.png
+  /usr/share/gnome/help/glchess/C/figures/new_game.png
+  /usr/share/gnome/help/glchess/C/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/C/figures/preferences_view.png
   /usr/share/gnome/help/glchess/C/glchess.xml
   /usr/share/gnome/help/glchess/C/legal.xml
+  /usr/share/gnome/help/glchess/ca/figures/game.png
+  /usr/share/gnome/help/glchess/ca/figures/new_game.png
+  /usr/share/gnome/help/glchess/ca/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/ca/figures/preferences_view.png
   /usr/share/gnome/help/glchess/ca/glchess.xml
+  /usr/share/gnome/help/glchess/el/figures/game.png
+  /usr/share/gnome/help/glchess/el/figures/new_game.png
+  /usr/share/gnome/help/glchess/el/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/el/figures/preferences_view.png
+  /usr/share/gnome/help/glchess/el/glchess.xml
+  /usr/share/gnome/help/glchess/es/figures/game.png
+  /usr/share/gnome/help/glchess/es/figures/new_game.png
+  /usr/share/gnome/help/glchess/es/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/es/figures/preferences_view.png
   /usr/share/gnome/help/glchess/es/glchess.xml
+  /usr/share/gnome/help/glchess/fr/figures/game.png
+  /usr/share/gnome/help/glchess/fr/figures/new_game.png
+  /usr/share/gnome/help/glchess/fr/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/fr/figures/preferences_view.png
   /usr/share/gnome/help/glchess/fr/glchess.xml
+  /usr/share/gnome/help/glchess/oc/figures/game.png
+  /usr/share/gnome/help/glchess/oc/figures/new_game.png
+  /usr/share/gnome/help/glchess/oc/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/oc/figures/preferences_view.png
   /usr/share/gnome/help/glchess/oc/glchess.xml
+  /usr/share/gnome/help/glchess/pt_BR/figures/game.png
+  /usr/share/gnome/help/glchess/pt_BR/figures/new_game.png
+  /usr/share/gnome/help/glchess/pt_BR/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/pt_BR/figures/preferences_view.png
   /usr/share/gnome/help/glchess/pt_BR/glchess.xml
+  /usr/share/gnome/help/glchess/sv/figures/game.png
+  /usr/share/gnome/help/glchess/sv/figures/new_game.png
+  /usr/share/gnome/help/glchess/sv/figures/preferences_game.png
+  /usr/share/gnome/help/glchess/sv/figures/preferences_view.png
   /usr/share/gnome/help/glchess/sv/glchess.xml
   /usr/share/icons/hicolor/16x16/apps/gnome-glchess.png
   /usr/share/icons/hicolor/22x22/apps/gnome-glchess.png
@@ -197,6 +279,7 @@ Files included in the binary packages:
   /usr/share/icons/hicolor/scalable/apps/gnome-glchess.svg
   /usr/share/omf/glchess/glchess-C.omf
   /usr/share/omf/glchess/glchess-ca.omf
+  /usr/share/omf/glchess/glchess-el.omf
   /usr/share/omf/glchess/glchess-es.omf
   /usr/share/omf/glchess/glchess-fr.omf
   /usr/share/omf/glchess/glchess-oc.omf
@@ -208,6 +291,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.22.2.1-1 -----
+Version bump for GNOME 2.22.
 
 ----- version 2.20.3-1 -----
 Version bump.

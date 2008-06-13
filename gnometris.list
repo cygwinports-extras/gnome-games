@@ -1,3 +1,6 @@
+etc/gconf/schemas/gnometris.schemas
+etc/postinstall/gnometris.sh
+etc/preremove/gnometris.sh
 usr/bin/gnometris.exe
 usr/share/applications/gnometris.desktop
 usr/share/doc/Cygwin/gnometris-*.README
