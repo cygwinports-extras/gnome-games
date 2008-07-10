@@ -9,11 +9,11 @@ again. Of course we can't be held responsible for the time and
 productivity lost while playing them.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
   GConf2-2.22.0-1
-  gdk-pixbuf2-2.12.9-1
+  gdk-pixbuf2-2.12.10-1
   glib2-2.16.3-1
-  gtk2-x11-2.12.9-1
+  gtk2-x11-2.12.10-1
   libcairo2-1.6.4-1
   libgnome2-2.22.0-1
   libgnomeui2-2.22.1-1
@@ -26,14 +26,14 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.11-1
+  cygport-0.3.12-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   intltool-0.37.1-1
   libtool-2.2.2-2
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   rarian-0.8.0-1
   sed-4.1.5-2
 
@@ -46,32 +46,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.22.2.1-1-src.tar.bz2
+  unpack gnome-games-2.22.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.22.2.1-1.cygport all
+  cygport ./gnome-games-2.22.3-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-2.22.2.1-1-src.tar.bz2
-  /usr/src/gnome-games-2.22.2.1-1.tar.bz2
+  /usr/src/gnome-games-2.22.3-1-src.tar.bz2
+  /usr/src/gnome-games-2.22.3-1.tar.bz2
 
-  /usr/src/aisleriot-2.22.2.1-1.tar.bz2
-  /usr/src/blackjack-2.22.2.1-1.tar.bz2
-  /usr/src/glchess-2.22.2.1-1.tar.bz2
-  /usr/src/glines-2.22.2.1-1.tar.bz2
-  /usr/src/gnect-2.22.2.1-1.tar.bz2
-  /usr/src/gnibbles-2.22.2.1-1.tar.bz2
-  /usr/src/gnobots2-2.22.2.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.22.2.1-1.tar.bz2
-  /usr/src/gnometris-2.22.2.1-1.tar.bz2
-  /usr/src/gnomine-2.22.2.1-1.tar.bz2
-  /usr/src/gnotravex-2.22.2.1-1.tar.bz2
-  /usr/src/gnotski-2.22.2.1-1.tar.bz2
-  /usr/src/gtali-2.22.2.1-1.tar.bz2
-  /usr/src/iagno-2.22.2.1-1.tar.bz2
-  /usr/src/mahjongg-2.22.2.1-1.tar.bz2
-  /usr/src/same-gnome-2.22.2.1-1.tar.bz2
+  /usr/src/aisleriot-2.22.3-1.tar.bz2
+  /usr/src/blackjack-2.22.3-1.tar.bz2
+  /usr/src/glchess-2.22.3-1.tar.bz2
+  /usr/src/glines-2.22.3-1.tar.bz2
+  /usr/src/gnect-2.22.3-1.tar.bz2
+  /usr/src/gnibbles-2.22.3-1.tar.bz2
+  /usr/src/gnobots2-2.22.3-1.tar.bz2
+  /usr/src/gnome-sudoku-2.22.3-1.tar.bz2
+  /usr/src/gnometris-2.22.3-1.tar.bz2
+  /usr/src/gnomine-2.22.3-1.tar.bz2
+  /usr/src/gnotravex-2.22.3-1.tar.bz2
+  /usr/src/gnotski-2.22.3-1.tar.bz2
+  /usr/src/gtali-2.22.3-1.tar.bz2
+  /usr/src/iagno-2.22.3-1.tar.bz2
+  /usr/src/mahjongg-2.22.3-1.tar.bz2
+  /usr/src/same-gnome-2.22.3-1.tar.bz2
 
 -------------------------------------------
 
@@ -82,8 +82,8 @@ Files included in the binary packages:
   /etc/preremove/glines.sh
   /usr/bin/glines.exe
   /usr/share/applications/glines.desktop
-  /usr/share/doc/glines-2.22.2.1/AUTHORS
-  /usr/share/doc/glines-2.22.2.1/ChangeLog
+  /usr/share/doc/glines-2.22.3/AUTHORS
+  /usr/share/doc/glines-2.22.3/ChangeLog
   /usr/share/gnome/help/glines/C/figures/glines-gameover.png
   /usr/share/gnome/help/glines/C/figures/glines-startgame.png
   /usr/share/gnome/help/glines/C/figures/preferences.png
@@ -145,6 +145,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.22.3-1 -----
+Version bump.
 
 ----- version 2.22.2.1-1 -----
 Version bump for GNOME 2.22.
