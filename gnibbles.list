@@ -7,7 +7,6 @@ etc/preremove/gnibbles.sh
 usr/bin/gnibbles.exe
 usr/lib/ggz/gnibblesd.exe
 usr/share/applications/gnibbles.desktop
-usr/share/doc/Cygwin/gnibbles-*.README
 usr/share/doc/gnibbles-*/
 usr/share/gnibbles/
 usr/share/gnome/help/gnibbles/

@@ -3,7 +3,6 @@ etc/postinstall/gtali.sh
 etc/preremove/gtali.sh
 usr/bin/gtali.exe
 usr/share/applications/gtali.desktop
-usr/share/doc/Cygwin/gtali-*.README
 usr/share/doc/gtali-*/
 usr/share/gnome/help/gtali/
 usr/share/icons/hicolor/*/apps/gnome-tali.*

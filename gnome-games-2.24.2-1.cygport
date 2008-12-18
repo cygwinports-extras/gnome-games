@@ -2,12 +2,14 @@ inherit ggz gnome2
 
 DESCRIPTION="GNOME Games suite"
 
+PATCH_URI="2.24-no-undefined.patch"
+
 allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
           gnome-sudoku gnomine gnotravex gnotski gtali iagno mahjongg same-gnome"
 ggzgames="gnect gnibbles iagno"
 
 PKG_NAMES="${PN} ${PN}-common ${allgames}"
-PKG_CONTENTS[0]=
+PKG_CONTENTS=
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
@@ -22,6 +24,7 @@ CYGCONF_ARGS="
 	--with-platform=gnome
 	--with-sound=gstreamer
 	--with-scores-group=$(id -gn) --with-scores-user=$(id -un)
+	ac_cv_header_winsock2_h=no
 "
 
 src_install() {

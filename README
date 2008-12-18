@@ -1,4 +1,4 @@
-gnometris
+gnome-games
 -------------------------------------------
 Gnome-games is a collection of simple, but addictive, games from the
 GNOME desktop project. They represent many of the popular games and
@@ -10,32 +10,42 @@ productivity lost while playing them.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  GConf2-2.22.0-1
-  gdk-pixbuf2-2.12.10-1
-  glib2-2.16.3-1
-  gnome-vfs2-2.22.0-1
-  gstreamer010-0.10.20-1
-  gtk2-x11-2.12.10-1
-  libcairo2-1.6.4-1
-  libgnome2-2.22.0-1
-  libgnomeui2-2.22.1-1
-  libintl8-0.15-1
-  pango-1.20.3-1
+  libatk1.0_0-1.24.0-1
+  libcairo2-1.8.4-1
+  libgconf2_4-2.24.0-1
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libggz2-0.0.14.1-1
+  libggzcore9-0.0.14.1-1
+  libggzdmod6-0.0.14.1-1
+  libggzmod4-0.0.14.1-1
+  libglib2.0_0-2.18.3-1
+  libgnome2_0-2.24.1-1
+  libgnomeui2_0-2.24.0-1
+  libgnomevfs2_0-2.24.0-1
+  libgstreamer0.10_0-0.10.21-2
+  libgtk2.0_0-2.14.5-1
+  libguile17-1.8.5-1
+  libintl8-0.17-2
+  libpango1.0_0-1.22.3-1
+  librsvg2_2-2.22.3-1
+  libX11_6-1.1.5-1
+  libxml2-2.7.2-1
+  zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  intltool-0.37.1-1
-  libtool-2.2.2-2
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
-  rarian-0.8.0-1
+  rarian-0.8.1-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -59,12 +69,11 @@ This will create:
 
   /usr/src/aisleriot-2.22.3-1.tar.bz2
   /usr/src/blackjack-2.22.3-1.tar.bz2
-  /usr/src/glchess-2.22.3-1.tar.bz2
+  /usr/src/gataxx-2.22.3-1.tar.bz2
   /usr/src/glines-2.22.3-1.tar.bz2
   /usr/src/gnect-2.22.3-1.tar.bz2
   /usr/src/gnibbles-2.22.3-1.tar.bz2
   /usr/src/gnobots2-2.22.3-1.tar.bz2
-  /usr/src/gnome-sudoku-2.22.3-1.tar.bz2
   /usr/src/gnometris-2.22.3-1.tar.bz2
   /usr/src/gnomine-2.22.3-1.tar.bz2
   /usr/src/gnotravex-2.22.3-1.tar.bz2
@@ -76,47 +85,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-  /etc/gconf/schemas/gnometris.schemas
-  /etc/postinstall/gnometris.sh
-  /etc/preremove/gnometris.sh
-  /usr/bin/gnometris.exe
-  /usr/share/applications/gnometris.desktop
-  /usr/share/doc/gnometris-2.22.3/AUTHORS
-  /usr/share/doc/gnometris-2.22.3/ChangeLog
-  /usr/share/doc/gnometris-2.22.3/TODO
-  /usr/share/gnome/help/gnometris/C/gnometris.xml
-  /usr/share/gnome/help/gnometris/C/legal.xml
-  /usr/share/gnome/help/gnometris/ca/gnometris.xml
-  /usr/share/gnome/help/gnometris/el/gnometris.xml
-  /usr/share/gnome/help/gnometris/es/gnometris.xml
-  /usr/share/gnome/help/gnometris/fr/gnometris.xml
-  /usr/share/gnome/help/gnometris/it/gnometris.xml
-  /usr/share/gnome/help/gnometris/oc/gnometris.xml
-  /usr/share/gnome/help/gnometris/sv/gnometris.xml
-  /usr/share/icons/hicolor/16x16/apps/gnome-gnometris.png
-  /usr/share/icons/hicolor/22x22/apps/gnome-gnometris.png
-  /usr/share/icons/hicolor/24x24/apps/gnome-gnometris.png
-  /usr/share/icons/hicolor/32x32/apps/gnome-gnometris.png
-  /usr/share/icons/hicolor/48x48/apps/gnome-gnometris.png
-  /usr/share/icons/hicolor/scalable/apps/gnome-gnometris.svg
-  /usr/share/omf/gnometris/gnometris-C.omf
-  /usr/share/omf/gnometris/gnometris-ca.omf
-  /usr/share/omf/gnometris/gnometris-el.omf
-  /usr/share/omf/gnometris/gnometris-es.omf
-  /usr/share/omf/gnometris/gnometris-fr.omf
-  /usr/share/omf/gnometris/gnometris-it.omf
-  /usr/share/omf/gnometris/gnometris-oc.omf
-  /usr/share/omf/gnometris/gnometris-sv.omf
-  /usr/share/pixmaps/gnometris/7blocks-gw.png
-  /usr/share/pixmaps/gnometris/7blocks-tig.png
-  /usr/share/pixmaps/gnometris/gnometris.svg
-  /var/lib/games/gnometris.scores
-
-------------------
-
 Port Notes:
+
+----- version 2.24.2-1 -----
+Version bump.
 
 ----- version 2.22.3-1 -----
 Version bump.

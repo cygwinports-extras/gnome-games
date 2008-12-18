@@ -7,7 +7,6 @@ etc/preremove/gnect.sh
 usr/bin/gnect.exe
 usr/lib/ggz/gnectd.exe
 usr/share/applications/gnect.desktop
-usr/share/doc/Cygwin/gnect-*.README
 usr/share/doc/gnect-*/
 usr/share/gnect/
 usr/share/gnome/help/gnect/

@@ -1,6 +1,6 @@
 etc/postinstall/gnome-games.sh
 usr/lib/gnome-games/
-usr/share/doc/Cygwin/gnome-games-*.README
+usr/share/doc/Cygwin/
 usr/share/doc/gnome-games-*/
 usr/share/ggz/
 usr/share/gnome-games-common/

@@ -3,7 +3,6 @@ etc/postinstall/gnobots2.sh
 etc/preremove/gnobots2.sh
 usr/bin/gnobots2.exe
 usr/share/applications/gnobots2.desktop
-usr/share/doc/Cygwin/gnobots2-*.README
 usr/share/doc/gnobots2-*/
 usr/share/gnobots2/
 usr/share/gnome/help/gnobots2/

@@ -4,7 +4,6 @@ etc/preremove/glchess.sh
 usr/bin/glchess
 usr/lib/python2.5/site-packages/glchess/
 usr/share/applications/glchess.desktop
-usr/share/doc/Cygwin/glchess-*.README
 usr/share/doc/glchess-*/
 usr/share/glchess/
 usr/share/gnome/help/glchess/

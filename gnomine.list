@@ -3,7 +3,6 @@ etc/postinstall/gnomine.sh
 etc/preremove/gnomine.sh
 usr/bin/gnomine.exe
 usr/share/applications/gnomine.desktop
-usr/share/doc/Cygwin/gnomine-*.README
 usr/share/doc/gnomine-*/
 usr/share/gnome/help/gnomine/
 usr/share/icons/hicolor/*/apps/gnome-mines.*

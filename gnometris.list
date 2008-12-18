@@ -3,7 +3,6 @@ etc/postinstall/gnometris.sh
 etc/preremove/gnometris.sh
 usr/bin/gnometris.exe
 usr/share/applications/gnometris.desktop
-usr/share/doc/Cygwin/gnometris-*.README
 usr/share/doc/gnometris-*/
 usr/share/gnome/help/gnometris/
 usr/share/icons/hicolor/*/apps/gnome-gnometris.*

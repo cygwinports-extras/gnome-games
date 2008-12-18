@@ -1,0 +1,47 @@
+--- origsrc/gnome-games-2.24.2/dependencies/ggz-gtk/Makefile.am	2008-11-24 17:47:35.000000000 -0600
++++ src/gnome-games-2.24.2/dependencies/ggz-gtk/Makefile.am	2008-12-15 22:35:42.618875000 -0600
+@@ -71,7 +71,7 @@
+ 			xtext.h \
+ 			xtext-ggz.h
+ 
+-libggz_gtk_la_LIBADD = $(GTK_LIBS) $(LDADD) $(LIBS) $(INTLLIBS) \
++libggz_gtk_la_LIBADD = $(GNOME_GAMES_LIBS) $(LDADD) $(LIBS) $(INTLLIBS) \
+ 			$(LIB_GGZCORE) $(LIB_GGZ)
+ libggz_gtk_la_LDFLAGS = $(GGZCORE_LDFLAGS) $(LIBGGZ_LDFLAGS) -version-info 0:0:0
+ 
+--- origsrc/gnome-games-2.24.2/gnect/src/Makefile.am	2008-11-24 17:48:15.000000000 -0600
++++ src/gnome-games-2.24.2/gnect/src/Makefile.am	2008-12-15 22:35:42.650125000 -0600
+@@ -73,5 +73,5 @@
+ 	../../libgames-support/libgames-support.la         \
+ 	$(GNOME_GAMES_LIBS)     \
+ 	$(INTLLIBS) \
+-	$(LIB_GGZMOD) \
+-	$(LIB_GGZ_GTK)
++	$(LIB_GGZ_GTK) \
++	$(LIB_GGZMOD)
+--- origsrc/gnome-games-2.24.2/gnibbles/Makefile.am	2008-11-24 17:48:05.000000000 -0600
++++ src/gnome-games-2.24.2/gnibbles/Makefile.am	2008-12-15 22:35:42.650125000 -0600
+@@ -58,8 +58,8 @@
+ 	$(GGZDMOD_INCLUDES)
+ 
+ gnibbles_LDADD += \
+-	$(LIB_GGZMOD) \
+-	$(LIB_GGZ_GTK)
++	$(LIB_GGZ_GTK) \
++	$(LIB_GGZMOD)
+ endif
+ 
+ pixmapdir = $(datadir)/pixmaps/gnibbles
+--- origsrc/gnome-games-2.24.2/iagno/Makefile.am	2008-11-24 17:48:15.000000000 -0600
++++ src/gnome-games-2.24.2/iagno/Makefile.am	2008-12-15 22:35:42.665750000 -0600
+@@ -47,8 +47,8 @@
+ 	$(top_builddir)/libgames-support/libgames-support.la \
+ 	$(GNOME_GAMES_LIBS) \
+ 	$(INTLLIBS) \
+-	$(LIB_GGZMOD) \
+-	$(LIB_GGZ_GTK)
++	$(LIB_GGZ_GTK) \
++	$(LIB_GGZMOD)
+ 
+ pixmap_DATA = \
+ 	classic.png \

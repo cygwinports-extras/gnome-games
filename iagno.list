@@ -7,7 +7,6 @@ etc/preremove/iagno.sh
 usr/bin/iagno.exe
 usr/lib/ggz/iagnod.exe
 usr/share/applications/iagno.desktop
-usr/share/doc/Cygwin/iagno-*.README
 usr/share/doc/iagno-*/
 usr/share/gnome/help/iagno/
 usr/share/icons/hicolor/*/apps/gnome-iagno.*

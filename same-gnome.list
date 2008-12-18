@@ -3,7 +3,6 @@ etc/postinstall/same-gnome.sh
 etc/preremove/same-gnome.sh
 usr/bin/same-gnome.exe
 usr/share/applications/same-gnome.desktop
-usr/share/doc/Cygwin/same-gnome-*.README
 usr/share/doc/same-gnome-*/
 usr/share/gnome-games/same-gnome/
 usr/share/gnome/help/same-gnome/

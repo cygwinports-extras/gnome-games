@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: cygwin gnome-games-common GConf2 glib2 gstreamer010 gtk2-x11 libX11_6 libggz2 libggzcore9 libggzdmod6 libggzmod4 libgnome2 libgnomeui2 libintl8 pango zlib
+requires: cygwin gnome-games-common GConf2 libgconf2_4 libglib2.0_0 libgstreamer0.10_0 libgtk2.0_0 libX11_6 libggz2 libggzcore9 libggzdmod6 libggzmod4 libgnome2_0 libgnomeui2_0 libintl8 libpango1.0_0 zlib
 external-source: gnome-games
 sdesc: "GNOME connect four game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from

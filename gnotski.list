@@ -3,7 +3,6 @@ etc/postinstall/gnotski.sh
 etc/preremove/gnotski.sh
 usr/bin/gnotski.exe
 usr/share/applications/gnotski.desktop
-usr/share/doc/Cygwin/gnotski-*.README
 usr/share/doc/gnotski-*/
 usr/share/gnome-games/gnotski/
 usr/share/gnome/help/gnotski/

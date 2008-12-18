@@ -4,7 +4,6 @@ etc/preremove/aisleriot.sh
 usr/bin/sol.exe
 usr/share/applications/freecell.desktop
 usr/share/applications/sol.desktop
-usr/share/doc/Cygwin/aisleriot-*.README
 usr/share/doc/aisleriot-*/
 usr/share/gnome-games/aisleriot/
 usr/share/gnome/help/aisleriot/

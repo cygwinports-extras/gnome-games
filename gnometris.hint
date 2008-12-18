@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: cygwin gnome-games-common GConf2 glib2 gnome-vfs2 gstreamer010 gtk2-x11 libcairo2 libgnome2 libgnomeui2 libintl8 pango
+requires: cygwin gnome-games-common GConf2 libgconf2_4 libglib2.0_0 gnome-vfs2 libgstreamer0.10_0 libgtk2.0_0 libcairo2 libgnome2_0 libgnomeui2_0 libintl8 libpango1.0_0
 external-source: gnome-games
 sdesc: "GNOME Tetris game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from

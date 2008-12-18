@@ -3,7 +3,6 @@ etc/postinstall/gnotravex.sh
 etc/preremove/gnotravex.sh
 usr/bin/gnotravex.exe
 usr/share/applications/gnotravex.desktop
-usr/share/doc/Cygwin/gnotravex-*.README
 usr/share/doc/gnotravex-*/
 usr/share/gnome/help/gnotravex/
 usr/share/icons/hicolor/*/apps/gnome-tetravex.*
