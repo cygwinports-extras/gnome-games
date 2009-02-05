@@ -9,7 +9,6 @@ allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
 ggzgames="gnect gnibbles iagno"
 
 PKG_NAMES="${PN} ${PN}-common ${allgames}"
-PKG_CONTENTS=
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
@@ -65,13 +64,7 @@ src_install() {
 				_EOF
 		fi
 
-		for doc in AUTHORS ChangeLog NEWS README TODO
-		do
-			if [ -f ${S}/${game}/${doc} ]
-			then
-				insinto /usr/share/doc/${game}-${PV}
-				doins ${S}/${game}/${doc}
-			fi
-		done
+		docinto /${game}-${PV}
+		dodoc ${S}/${game}/{AUTHORS,ChangeLog,NEWS,README,TODO}
 	done
 }
