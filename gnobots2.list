@@ -1,13 +1,8 @@
-etc/gconf/schemas/gnobots2.schemas
-etc/postinstall/gnobots2.sh
-etc/preremove/gnobots2.sh
 usr/bin/gnobots2.exe
 usr/share/applications/gnobots2.desktop
-usr/share/doc/gnobots2-*/
-usr/share/gnobots2/
+usr/share/doc/gnobots2/
 usr/share/gnome/help/gnobots2/
+usr/share/gnome-games/gnobots2/
 usr/share/icons/hicolor/*/apps/gnome-robots.*
 usr/share/omf/gnobots2/
-usr/share/omf/gnome-games/gnobots2-da.omf
-usr/share/pixmaps/gnobots2/
-var/lib/games/gnobots2.*.scores
+usr/share/omf/gnome-games/gnobots2-*.omf

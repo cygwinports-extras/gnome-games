@@ -1,7 +1,7 @@
 usr/bin/gnome-sudoku
 usr/lib/python2.5/site-packages/gnome_sudoku/
 usr/share/applications/gnome-sudoku.desktop
-usr/share/doc/gnome-sudoku-*/
+usr/share/doc/gnome-sudoku/
 usr/share/gnome-sudoku/
 usr/share/gnome/help/gnome-sudoku/
 usr/share/icons/hicolor/*/apps/gnome-sudoku.*

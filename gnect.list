@@ -1,15 +1,10 @@
-etc/gconf/schemas/gnect.schemas
 etc/ggz/modules/gnect.dsc
-etc/ggzd/games/gnect-server.dsc
-etc/ggzd/rooms/gnect.room
 etc/postinstall/gnect.sh
 etc/preremove/gnect.sh
 usr/bin/gnect.exe
-usr/lib/ggz/gnectd.exe
 usr/share/applications/gnect.desktop
-usr/share/doc/gnect-*/
-usr/share/gnect/
+usr/share/doc/gnect/
 usr/share/gnome/help/gnect/
+usr/share/gnome-games/gnect/
 usr/share/icons/hicolor/*/apps/gnome-gnect.*
 usr/share/omf/gnect/
-usr/share/pixmaps/gnect/

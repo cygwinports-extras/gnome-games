@@ -1,0 +1,10 @@
+--- origsrc/gnome-games-2.26.1/configure.in	2009-04-13 22:06:38.000000000 -0500
++++ src/gnome-games-2.26.1/configure.in	2009-04-19 20:28:24.593125000 -0500
+@@ -727,6 +727,7 @@ if test "$need_ggz" = "yes"; then
+   AC_GGZ_INIT(defaults, export)
+   AC_GGZ_LIBGGZ([],[])
+   AC_GGZ_VERSION(0, 0, 14)
++  AC_GGZ_GGZCORE
+   AC_GGZ_GGZMOD
+   AC_GGZ_CONFIG("true", ignore)
+   #AC_GGZ_INTL

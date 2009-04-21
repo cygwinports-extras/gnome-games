@@ -1,11 +1,7 @@
-etc/gconf/schemas/glines.schemas
-etc/postinstall/glines.sh
-etc/preremove/glines.sh
 usr/bin/glines.exe
 usr/share/applications/glines.desktop
-usr/share/doc/glines-*/
+usr/share/doc/glines/
 usr/share/gnome/help/glines/
+usr/share/gnome-games/glines/
 usr/share/icons/hicolor/*/apps/gnome-glines.*
 usr/share/omf/glines/
-usr/share/pixmaps/glines/
-var/lib/games/glines.*.scores

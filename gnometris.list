@@ -1,11 +1,7 @@
-etc/gconf/schemas/gnometris.schemas
-etc/postinstall/gnometris.sh
-etc/preremove/gnometris.sh
 usr/bin/gnometris.exe
 usr/share/applications/gnometris.desktop
-usr/share/doc/gnometris-*/
+usr/share/doc/gnometris/
 usr/share/gnome/help/gnometris/
+usr/share/gnome-games/gnometris/
 usr/share/icons/hicolor/*/apps/gnome-gnometris.*
 usr/share/omf/gnometris/
-usr/share/pixmaps/gnometris/
-var/lib/games/gnometris.scores

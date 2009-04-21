@@ -1,11 +1,7 @@
-etc/gconf/schemas/gnomine.schemas
-etc/postinstall/gnomine.sh
-etc/preremove/gnomine.sh
 usr/bin/gnomine.exe
 usr/share/applications/gnomine.desktop
-usr/share/doc/gnomine-*/
+usr/share/doc/gnomine/
 usr/share/gnome/help/gnomine/
+usr/share/gnome-games/gnomine/
 usr/share/icons/hicolor/*/apps/gnome-mines.*
 usr/share/omf/gnomine/
-usr/share/pixmaps/gnomine/
-var/lib/games/gnomine.*.scores

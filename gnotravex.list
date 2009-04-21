@@ -1,11 +1,6 @@
-etc/gconf/schemas/gnotravex.schemas
-etc/postinstall/gnotravex.sh
-etc/preremove/gnotravex.sh
 usr/bin/gnotravex.exe
 usr/share/applications/gnotravex.desktop
-usr/share/doc/gnotravex-*/
+usr/share/doc/gnotravex/
 usr/share/gnome/help/gnotravex/
 usr/share/icons/hicolor/*/apps/gnome-tetravex.*
 usr/share/omf/gnotravex/
-usr/share/pixmaps/gnotravex/
-var/lib/games/gnotravex.*.scores

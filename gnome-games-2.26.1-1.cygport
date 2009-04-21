@@ -2,7 +2,7 @@ inherit ggz gnome2
 
 DESCRIPTION="GNOME Games suite"
 
-PATCH_URI="2.24-no-undefined.patch"
+PATCH_URI="2.26-libggzcore.patch"
 
 allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
           gnome-sudoku gnomine gnotravex gnotski gtali iagno mahjongg same-gnome"
@@ -12,18 +12,18 @@ PKG_NAMES="${PN} ${PN}-common ${allgames}"
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
-RESTRICT="postinst-gconf"
-
+# FIXME: Add this once GObjectIntrospection/Seed are available
+#	--enable-clutter --enable-staging
 CYGCONF_ARGS="
 	--disable-gnuchess
 	--disable-setgid
+	--enable-scalable
 	--with-ggz-dir=/usr
-	--with-ggz-server
+	--without-ggz-server
 	--with-ggzd-confdir=/etc/ggzd
 	--with-platform=gnome
 	--with-sound=gstreamer
 	--with-scores-group=$(id -gn) --with-scores-user=$(id -un)
-	ac_cv_header_winsock2_h=no
 "
 
 src_install() {
@@ -51,20 +51,7 @@ src_install() {
 
 	for game in ${allgames}
 	do
-		if [ -f ${D}/etc/gconf/schemas/${game}.schemas ]
-		then
-			cat >> ${D}/etc/postinstall/${game}.sh <<-_EOF
-				export GCONF_CONFIG_SOURCE="\$(gconftool-2 --get-default-source)"
-				/usr/bin/gconftool-2 --makefile-install-rule /etc/gconf/schemas/${game}.schemas > /dev/null 2>&1
-				_EOF
-
-			cat >> ${D}/etc/preremove/${game}.sh <<-_EOF
-				export GCONF_CONFIG_SOURCE="\$(gconftool-2 --get-default-source)"
-				/usr/bin/gconftool-2 --makefile-uninstall-rule /etc/gconf/schemas/${game}.schemas > /dev/null 2>&1
-				_EOF
-		fi
-
-		docinto /${game}-${PV}
+		docinto /${game}
 		dodoc ${S}/${game}/{AUTHORS,ChangeLog,NEWS,README,TODO}
 	done
 }

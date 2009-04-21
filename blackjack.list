@@ -1,9 +1,6 @@
-etc/gconf/schemas/blackjack.schemas
-etc/postinstall/blackjack.sh
-etc/preremove/blackjack.sh
 usr/bin/blackjack.exe
 usr/share/applications/blackjack.desktop
-usr/share/doc/blackjack-*/
+usr/share/doc/blackjack/
 usr/share/gnome-games/blackjack/
 usr/share/gnome/help/blackjack/
 usr/share/icons/hicolor/*/apps/gnome-blackjack.*
