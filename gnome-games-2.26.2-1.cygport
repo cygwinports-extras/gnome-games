@@ -2,13 +2,16 @@ inherit ggz gnome2
 
 DESCRIPTION="GNOME Games suite"
 
-PATCH_URI="2.26-libggzcore.patch"
+PATCH_URI="2.26-libggzcore.patch
+           2.26.2-old-docs.patch"
 
 allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
           gnome-sudoku gnomine gnotravex gnotski gtali iagno mahjongg same-gnome"
 ggzgames="gnect gnibbles iagno"
 
 PKG_NAMES="${PN} ${PN}-common ${allgames}"
+
+PKG_IGNORE="usr/share/icons/hicolor/*/apps/gnome-lightsoff.*"
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 

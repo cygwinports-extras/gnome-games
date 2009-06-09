@@ -9,23 +9,23 @@ again. Of course we can't be held responsible for the time and
 productivity lost while playing them.
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-48
   gnuchess-5.07-10
   libatk1.0_0-1.26.0-1
   libcairo2-1.8.6-10
   libgcc1-4.3.2-2
-  libgconf2_4-2.26.0-1
-  libgdk_pixbuf2.0_0-2.16.0-1
+  libgconf2_4-2.26.2-1
+  libgdk_pixbuf2.0_0-2.16.2-1
   libggz2-0.0.14.1-10
   libggzcore9-0.0.14.1-10
   libggzmod4-0.0.14.1-10
-  libglib2.0_0-2.20.0-1
-  libgstreamer0.10_0-0.10.22-10
-  libgtk2.0_0-2.16.0-1
+  libglib2.0_0-2.20.3-1
+  libgstreamer0.10_0-0.10.23-1
+  libgtk2.0_0-2.16.2-1
   libguile17-1.8.6-1
   libICE6-1.0.5-10
   libintl8-0.17-10
-  libpango1.0_0-1.24.0-1
+  libpango1.0_0-1.24.2-1
   librsvg2_2-2.26.0-1
   libSM6-1.1.0-10
   libstdc++6-4.3.2-2
@@ -45,19 +45,19 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
   cygport-0.9.6-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
   gcc4-g++-4.3.2-2
-  gnome-common-2.26.0-1
-  gnome-doc-utils-0.16.0-1
+  gnome-common-2.26.0-2
+  gnome-doc-utils-0.16.1-2
   intltool-0.40.6-1
   libtool-2.2.7a-12
   make-3.81-2
   pkg-config-0.23b-10
-  rarian-0.8.1-10
+  rarian-0.8.1-11
   sed-4.1.5-2
 
 Canonical homepage:
@@ -69,31 +69,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-2.26.1-1-src.tar.bz2
+  unpack gnome-games-2.26.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-2.26.1-1.cygport all
+  cygport ./gnome-games-2.26.2-X.cygport all
 
 This will create:
-  /usr/src/aisleriot-2.26.1-1.tar.bz2
-  /usr/src/blackjack-2.26.1-1.tar.bz2
-  /usr/src/glchess-2.26.1-1.tar.bz2
-  /usr/src/glines-2.26.1-1.tar.bz2
-  /usr/src/gnect-2.26.1-1.tar.bz2
-  /usr/src/gnibbles-2.26.1-1.tar.bz2
-  /usr/src/gnobots2-2.26.1-1.tar.bz2
-  /usr/src/gnome-games-2.26.1-1-src.tar.bz2
-  /usr/src/gnome-games-common-2.26.1-1.tar.bz2
-  /usr/src/gnome-sudoku-2.26.1-1.tar.bz2
-  /usr/src/gnometris-2.26.1-1.tar.bz2
-  /usr/src/gnomine-2.26.1-1.tar.bz2
-  /usr/src/gnotravex-2.26.1-1.tar.bz2
-  /usr/src/gnotski-2.26.1-1.tar.bz2
-  /usr/src/gtali-2.26.1-1.tar.bz2
-  /usr/src/iagno-2.26.1-1.tar.bz2
-  /usr/src/mahjongg-2.26.1-1.tar.bz2
-  /usr/src/same-gnome-2.26.1-1.tar.bz2
+  /usr/src/aisleriot-2.26.2-X.tar.bz2
+  /usr/src/blackjack-2.26.2-X.tar.bz2
+  /usr/src/glchess-2.26.2-X.tar.bz2
+  /usr/src/glines-2.26.2-X.tar.bz2
+  /usr/src/gnect-2.26.2-X.tar.bz2
+  /usr/src/gnibbles-2.26.2-X.tar.bz2
+  /usr/src/gnobots2-2.26.2-X.tar.bz2
+  /usr/src/gnome-games-2.26.2-X-src.tar.bz2
+  /usr/src/gnome-games-common-2.26.2-X.tar.bz2
+  /usr/src/gnome-sudoku-2.26.2-X.tar.bz2
+  /usr/src/gnometris-2.26.2-X.tar.bz2
+  /usr/src/gnomine-2.26.2-X.tar.bz2
+  /usr/src/gnotravex-2.26.2-X.tar.bz2
+  /usr/src/gnotski-2.26.2-X.tar.bz2
+  /usr/src/gtali-2.26.2-X.tar.bz2
+  /usr/src/iagno-2.26.2-X.tar.bz2
+  /usr/src/mahjongg-2.26.2-X.tar.bz2
+  /usr/src/same-gnome-2.26.2-X.tar.bz2
 
 For a list of files installed by a given package, run
 'cygcheck -l <PKG>' from a command line prompt.
@@ -101,6 +101,9 @@ For a list of files installed by a given package, run
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.26.2-1 -----
+Version bump.
 
 ----- version 2.26.1-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
