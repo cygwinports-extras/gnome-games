@@ -2,8 +2,7 @@ inherit ggz gnome2
 
 DESCRIPTION="GNOME Games suite"
 
-PATCH_URI="2.26-libggzcore.patch
-           2.26.2-old-docs.patch"
+PATCH_URI="2.26-libggzcore.patch"
 
 allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
           gnome-sudoku gnomine gnotravex gnotski gtali iagno mahjongg same-gnome"
