@@ -1,0 +1,32 @@
+ORIG_PN="gnome-games"
+inherit gnome2
+
+DESCRIPTION="GNOME Games suite"
+
+PATCH_URI="2.27-binreloc.patch
+           2.27-introspection.patch"
+
+PKG_NAMES="${PN} gobject-introspection-GnomeGamesSupport1.0"
+
+DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
+
+CYGCONF_ARGS="
+	--disable-gnuchess
+	--disable-nls
+	--disable-setgid
+	--enable-games=${PN}
+	--enable-scalable
+	--with-platform=gnome
+	--with-sound=libcanberra
+	--with-scores-group=$(id -gn) --with-scores-user=$(id -un)
+"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	mv ${D}/usr/lib/bin/* ${D}/usr/bin/
+	sed -i -e '/^dlname=/ s|\.\./bin/|../../bin/|' ${D}/usr/lib/gnome-games/*.la
+
+	rm -fr ${D}/usr/share/gnome-games/icons/
+}

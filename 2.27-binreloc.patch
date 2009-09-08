@@ -1,0 +1,11 @@
+--- origsrc/gnome-games-2.27.92/configure.in	2009-09-07 16:56:55.000000000 -0500
++++ src/gnome-games-2.27.92/configure.in	2009-09-08 13:06:46.771437700 -0500
+@@ -796,7 +796,7 @@ AC_MSG_CHECKING([whether to enable binar
+ AC_ARG_ENABLE([binreloc],
+   [AS_HELP_STRING([--enable-binreloc],[enable binary relocation support (default: disabled)])],
+   [],
+-  [enable_binreloc="$platform_win32"])
++  [enable_binreloc="$os_win32"])
+ AC_MSG_RESULT([$enable_binreloc])
+ 
+ if test "$enable_binreloc" = "yes"; then

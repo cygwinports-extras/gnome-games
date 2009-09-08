@@ -1,0 +1,6 @@
+usr/bin/cyggames-support-gi.dll
+usr/lib/girepository-1.0/GGZ-1.0.typelib
+usr/lib/girepository-1.0/GnomeGamesSupport-1.0.typelib
+usr/lib/gnome-games/libgames-support-gi.*
+usr/share/gir-1.0/GGZ-1.0.gir
+usr/share/gir-1.0/GnomeGamesSupport-1.0.gir
