@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: gobject-introspection-Clutter1.0 gobject-introspection-GConf2.0 gobject-introspection-GLib2.0 gobject-introspection-GnomeGamesSupport1.0 gobject-introspection-Gtk2.0 gobject-introspection-GtkClutter0.10 seed
+requires: girepository-Clutter1.0 girepository-GConf2.0 girepository-GLib2.0 girepository-GnomeGamesSupport1.0 girepository-Gtk2.0 girepository-GtkClutter0.10 seed
 external-source: gnome-games
 sdesc: "GNOME Lights Off game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from

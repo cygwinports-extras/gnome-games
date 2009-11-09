@@ -1,6 +1,6 @@
-etc/
 usr/bin/lightsoff
 usr/share/applications/lightsoff.desktop
-usr/share/doc/lightsoff/
+usr/share/gnome/help/lightsoff/
 usr/share/gnome-games/lightsoff/
 usr/share/icons/hicolor/scalable/apps/gnome-lightsoff.svg
+usr/share/omf/lightsoff/

@@ -6,4 +6,4 @@ usr/share/glchess/
 usr/share/gnome/help/glchess/
 usr/share/icons/hicolor/*/apps/gnome-glchess.*
 usr/share/omf/glchess/
-usr/share/pixmaps/glchess/
+usr/share/man/man6/glchess.6*

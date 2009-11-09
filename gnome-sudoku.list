@@ -6,4 +6,4 @@ usr/share/gnome-sudoku/
 usr/share/gnome/help/gnome-sudoku/
 usr/share/icons/hicolor/*/apps/gnome-sudoku.*
 usr/share/omf/gnome-sudoku/
-usr/share/pixmaps/gnome-sudoku/
+usr/share/man/man6/gnome-sudoku.6*

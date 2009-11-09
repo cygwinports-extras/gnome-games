@@ -2,35 +2,38 @@ inherit ggz gnome2
 
 DESCRIPTION="GNOME Games suite"
 
-PATCH_URI="2.26-libggzcore.patch"
+PATCH_URI="2.27-binreloc.patch
+           2.27-introspection.patch"
 
-allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 gnometris
-          gnome-sudoku gnomine gnotravex gnotski gtali iagno mahjongg same-gnome"
+# must not use extra spaces so substitution works in CYGCONF_ARGS
+allgames="aisleriot blackjack glchess glines gnect gnibbles gnobots2 \
+gnometris gnome-sudoku gnomine gnotravex gnotski gtali iagno lightsoff \
+mahjongg same-gnome"
 ggzgames="gnect gnibbles iagno"
 
-PKG_NAMES="${PN} ${PN}-common ${allgames}"
-
-PKG_IGNORE="usr/share/icons/hicolor/*/apps/gnome-lightsoff.*"
+PKG_NAMES="${PN} ${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
-# FIXME: Add this once GObjectIntrospection/Seed are available
-#	--enable-clutter --enable-staging
 CYGCONF_ARGS="
+	--enable-games=${allgames// /,}
+	--enable-scalable
 	--disable-gnuchess
 	--disable-setgid
-	--enable-scalable
 	--with-ggz-dir=/usr
 	--without-ggz-server
 	--with-ggzd-confdir=/etc/ggzd
+	--with-help-method=ghelp
 	--with-platform=gnome
-	--with-sound=gstreamer
-	--with-scores-group=$(id -gn) --with-scores-user=$(id -un)
+	--with-sound=libcanberra
 "
 
 src_install() {
 	cd ${B}
 	cyginstall
+
+	mv ${D}/usr/lib/bin/* ${D}/usr/bin/
+	sed -i -e '/^dlname=/ s|\.\./bin/|../../bin/|' ${D}/usr/lib/gnome-games/*.la
 
 	rm -f ${D}/etc/ggz.modules
 

@@ -1,5 +1,5 @@
 category: Gnome Games
-requires: gnome-games-common python python-cairo python-gobject2 python-gtk2 python-gconf2 python-gnomeprint2
+requires: gnome-games-common python python-cairo python-gobject2.0 python-gtk2.0 python-gconf2
 external-source: gnome-games
 sdesc: "GNOME sudoku game"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
