@@ -32,9 +32,6 @@ src_install() {
 	cd ${B}
 	cyginstall
 
-	mv ${D}/usr/lib/bin/* ${D}/usr/bin/
-	sed -i -e '/^dlname=/ s|\.\./bin/|../../bin/|' ${D}/usr/lib/gnome-games/*.la
-
 	rm -f ${D}/etc/ggz.modules
 
 	doggzmod gnect/data/gnect-client.dsc \
