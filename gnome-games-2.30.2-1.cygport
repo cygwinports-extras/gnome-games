@@ -1,0 +1,36 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Games suite"
+
+PATCH_URI="2.27-binreloc.patch
+           2.30-introspection.patch"
+
+# must not use extra spaces so substitution works in CYGCONF_ARGS
+allgames="aisleriot glchess glines gnect gnibbles gnobots2 \
+gnome-sudoku gnomine gnotravex gnotski gtali iagno lightsoff \
+mahjongg quadrapassel swell-foop"
+
+PKG_NAMES="${PN} ${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
+
+DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
+
+CYGCONF_ARGS="
+	--disable-gnuchess
+	--disable-setgid
+	--with-ggz-dir=/usr
+	--without-ggz-server
+	--with-ggzd-confdir=/etc/ggzd
+	--with-help-method=ghelp
+	--with-platform=gnome
+"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	for game in ${allgames}
+	do
+		docinto /${game}
+		dodoc ${S}/${game}/{AUTHORS,ChangeLog,NEWS,README,TODO}
+	done
+}

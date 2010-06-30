@@ -1,6 +1,3 @@
-etc/ggz/modules/iagno.dsc
-etc/postinstall/iagno.sh
-etc/preremove/iagno.sh
 usr/bin/iagno.exe
 usr/share/applications/iagno.desktop
 usr/share/doc/iagno/

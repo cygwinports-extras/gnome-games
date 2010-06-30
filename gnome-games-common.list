@@ -2,10 +2,7 @@ etc/defaults/var/games
 etc/gconf/
 etc/postinstall/gnome-games.sh
 etc/preremove/gnome-games.sh
-usr/lib/gnome-games/gnome-games-render-cards.exe
-usr/share/doc/Cygwin/
 usr/share/doc/gnome-games/
-usr/share/ggz/
 usr/share/gnome-games-common/
 usr/share/gnome-games/icons/
 usr/share/gnome-games/pixmaps/

@@ -1,6 +1,3 @@
-etc/ggz/modules/gnibbles.dsc
-etc/postinstall/gnibbles.sh
-etc/preremove/gnibbles.sh
 usr/bin/gnibbles.exe
 usr/share/applications/gnibbles.desktop
 usr/share/doc/gnibbles/

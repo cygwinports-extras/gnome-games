@@ -1,6 +1,3 @@
-etc/ggz/modules/gnect.dsc
-etc/postinstall/gnect.sh
-etc/preremove/gnect.sh
 usr/bin/gnect.exe
 usr/share/applications/gnect.desktop
 usr/share/doc/gnect/
