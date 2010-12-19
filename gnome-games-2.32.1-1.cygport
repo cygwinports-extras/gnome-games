@@ -10,7 +10,7 @@ allgames="aisleriot glchess glines gnect gnibbles gnobots2 \
 gnome-sudoku gnomine gnotravex gnotski gtali iagno lightsoff \
 mahjongg quadrapassel swell-foop"
 
-PKG_NAMES="${PN} ${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
+PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
