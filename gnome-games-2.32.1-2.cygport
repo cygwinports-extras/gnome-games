@@ -2,8 +2,13 @@ inherit gnome2
 
 DESCRIPTION="GNOME Games suite"
 
-PATCH_URI="2.27-binreloc.patch
-           2.30-introspection.patch"
+PATCH_URI="
+	2.27-binreloc.patch
+	2.30-no-undefined.patch
+	2.32-introspection-versions.patch
+	2.32.1-glib-main_context_iteration.patch
+	2.32.1-gtkclutter-init.patch
+"
 
 # must not use extra spaces so substitution works in CYGCONF_ARGS
 allgames="aisleriot glchess glines gnect gnibbles gnobots2 \
