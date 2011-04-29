@@ -5,15 +5,13 @@ DESCRIPTION="GNOME Games suite"
 PATCH_URI="
 	2.27-binreloc.patch
 	2.30-no-undefined.patch
-	2.32-introspection-versions.patch
-	2.32.1-glib-main_context_iteration.patch
-	2.32.1-gtkclutter-init.patch
+	3.0.0-glchess-compile.patch
+	3.0.0-introspection.patch
 "
 
 # must not use extra spaces so substitution works in CYGCONF_ARGS
-allgames="aisleriot glchess glines gnect gnibbles gnobots2 \
-gnome-sudoku gnomine gnotravex gnotski gtali iagno lightsoff \
-mahjongg quadrapassel swell-foop"
+allgames="aisleriot glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
+gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop"
 
 PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
 

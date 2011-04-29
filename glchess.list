@@ -1,5 +1,4 @@
-usr/bin/glchess
-usr/lib/python2.*/site-packages/glchess/
+usr/bin/glchess.exe
 usr/share/applications/glchess.desktop
 usr/share/doc/glchess/
 usr/share/glchess/

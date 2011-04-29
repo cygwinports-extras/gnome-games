@@ -1,4 +1,3 @@
 usr/bin/cyggames-support-gi*.dll
-usr/lib/girepository-1.0/GnomeGamesSupport-1.0.typelib
+usr/lib/gnome-games/GnomeGamesSupport-1.0.*
 usr/lib/gnome-games/libgames-support-gi.*
-usr/share/gir-1.0/GnomeGamesSupport-1.0.gir
