@@ -11,7 +11,7 @@ PATCH_URI="
 
 # must not use extra spaces so substitution works in CYGCONF_ARGS
 allgames="aisleriot glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
-gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop"
+gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop gnome-sudoku"
 
 PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
 
