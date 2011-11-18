@@ -1,0 +1,11 @@
+--- origsrc/gnome-games-3.2.1/glchess/src/glchess.c	2011-09-25 21:46:45.000000000 -0500
++++ src/gnome-games-3.2.1/glchess/src/glchess.c	2011-11-17 14:13:56.295553600 -0600
+@@ -4872,7 +4872,7 @@ gboolean G_MODULE_EXPORT preferences_del
+ 	g_return_val_if_fail (widget != NULL, FALSE);
+ 	g_return_val_if_fail (event != NULL, FALSE);
+ 	_tmp0_ = widget;
+-	G_MODULE_EXPORT preferences_response_cb (_tmp0_, (gint) GTK_RESPONSE_CANCEL, self);
++	preferences_response_cb (_tmp0_, (gint) GTK_RESPONSE_CANCEL, self);
+ 	result = TRUE;
+ 	return result;
+ }

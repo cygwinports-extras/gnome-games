@@ -3,14 +3,27 @@ inherit gnome2
 DESCRIPTION="GNOME Games suite"
 
 PATCH_URI="
-	2.27-binreloc.patch
 	2.30-no-undefined.patch
-	3.0.0-glchess-compile.patch
 	3.0.0-introspection.patch
+	3.2.1-glchess-compile.patch
 "
 
+DEPEND="gnome-common gnome-doc-utils
+	pkgconfig(clutter-gtk-1.0)
+	pkgconfig(gconf-2.0)
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libcanberra-gtk3)
+	pkgconfig(librsvg-2.0)
+	pkgconfig(pygobject-3.0)
+	pkgconfig(sqlite3)
+	pkgconfig(glu)
+	pkgconfig(sm)
+	vala(gtk+-3.0)
+	vala(librsvg-2.0)
+	vala(sqlite3)"
+
 # must not use extra spaces so substitution works in CYGCONF_ARGS
-allgames="aisleriot glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
+allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
 gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop gnome-sudoku"
 
 PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
@@ -18,11 +31,10 @@ PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
 CYGCONF_ARGS="
+	--enable-staging
+	--disable-binreloc
 	--disable-gnuchess
 	--disable-setgid
-	--with-ggz-dir=/usr
-	--without-ggz-server
-	--with-ggzd-confdir=/etc/ggzd
 	--with-help-method=ghelp
 	--with-platform=gnome
 "
