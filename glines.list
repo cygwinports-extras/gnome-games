@@ -1,8 +1,6 @@
 usr/bin/glines.exe
 usr/share/applications/glines.desktop
-usr/share/doc/glines/
-usr/share/gnome/help/glines/
-usr/share/gnome-games/glines/
-usr/share/icons/hicolor/*/apps/gnome-glines.*
-usr/share/omf/glines/
+usr/share/glines/
+usr/share/help/*/glines/
+usr/share/icons/hicolor/*/apps/glines.*
 usr/share/man/man6/glines.6*

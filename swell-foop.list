@@ -1,6 +1,5 @@
-usr/bin/swell-foop
+usr/bin/swell-foop.exe
 usr/share/applications/swell-foop.desktop
-usr/share/gnome/help/swell-foop/
+usr/share/help/*/swell-foop/
 usr/share/gnome-games/swell-foop/
-usr/share/icons/hicolor/*/apps/gnome-swell-foop.*
-usr/share/omf/swell-foop/
+usr/share/icons/hicolor/*/apps/swell-foop.*

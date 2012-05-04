@@ -1,10 +1,6 @@
 etc/defaults/var/games
-etc/gconf/
 etc/postinstall/gnome-games.sh
 etc/preremove/gnome-games.sh
 usr/share/doc/gnome-games/
 usr/share/glib-2.0/schemas/
-usr/share/gnome-games/icons/
-usr/share/gnome-games/pixmaps/
-usr/share/gnome-games/sounds/
 usr/share/locale/

@@ -1,8 +1,6 @@
 usr/bin/gtali.exe
 usr/share/applications/gtali.desktop
-usr/share/doc/gtali/
-usr/share/gnome/help/gtali/
-usr/share/gnome-games/gtali/
-usr/share/icons/hicolor/*/apps/gnome-tali.*
-usr/share/omf/gtali/
+usr/share/help/*/gtali/
+usr/share/gtali/
+usr/share/icons/hicolor/*/apps/gtali.*
 usr/share/man/man6/gtali.6*

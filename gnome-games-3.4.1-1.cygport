@@ -4,7 +4,6 @@ DESCRIPTION="GNOME Games suite"
 
 PATCH_URI="
 	2.30-no-undefined.patch
-	3.0.0-introspection.patch
 	3.2.1-glchess-compile.patch
 "
 
@@ -26,26 +25,12 @@ DEPEND="gnome-common gnome-doc-utils
 allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
 gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop gnome-sudoku"
 
-PKG_NAMES="${PN}-common ${allgames} girepository-GnomeGamesSupport1.0"
+PKG_NAMES="${PN}-common ${allgames}"
 
 DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
 
 CYGCONF_ARGS="
-	--enable-staging
-	--disable-binreloc
-	--disable-gnuchess
+	--disable-introspection
 	--disable-setgid
-	--with-help-method=ghelp
 	--with-platform=gnome
 "
-
-src_install() {
-	cd ${B}
-	cyginstall
-
-	for game in ${allgames}
-	do
-		docinto /${game}
-		dodoc ${S}/${game}/{AUTHORS,ChangeLog,NEWS,README,TODO}
-	done
-}

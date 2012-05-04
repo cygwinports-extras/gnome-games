@@ -1,6 +1,5 @@
-usr/bin/lightsoff
+usr/bin/lightsoff.exe
 usr/share/applications/lightsoff.desktop
-usr/share/gnome/help/lightsoff/
-usr/share/gnome-games/lightsoff/
-usr/share/icons/hicolor/scalable/apps/gnome-lightsoff.svg
-usr/share/omf/lightsoff/
+usr/share/help/*/lightsoff/
+usr/share/lightsoff/
+usr/share/icons/hicolor/*/apps/lightsoff.*

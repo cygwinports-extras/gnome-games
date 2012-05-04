@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: GConf2
+requires:
 external-source: gnome-games
 sdesc: "Collection of games for the GNOME Desktop (common data)"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from

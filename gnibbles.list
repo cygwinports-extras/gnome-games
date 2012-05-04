@@ -1,8 +1,6 @@
 usr/bin/gnibbles.exe
 usr/share/applications/gnibbles.desktop
-usr/share/doc/gnibbles/
-usr/share/gnome/help/gnibbles/
-usr/share/gnome-games/gnibbles/
-usr/share/icons/hicolor/*/apps/gnome-gnibbles.*
-usr/share/omf/gnibbles/
+usr/share/help/*/gnibbles/
+usr/share/gnibbles/
+usr/share/icons/hicolor/*/apps/gnibbles.*
 usr/share/man/man6/gnibbles.6*

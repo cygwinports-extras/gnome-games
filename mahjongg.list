@@ -1,7 +1,6 @@
 usr/bin/mahjongg.exe
 usr/share/applications/mahjongg.desktop
-usr/share/gnome-games/mahjongg/
-usr/share/gnome/help/mahjongg/
-usr/share/icons/hicolor/*/apps/gnome-mahjongg.*
-usr/share/omf/mahjongg/
+usr/share/mahjongg/
+usr/share/help/*/mahjongg/
+usr/share/icons/hicolor/*/apps/mahjongg.*
 usr/share/man/man6/mahjongg.6*

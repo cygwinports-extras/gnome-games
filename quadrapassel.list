@@ -1,8 +1,6 @@
 usr/bin/quadrapassel.exe
 usr/share/applications/quadrapassel.desktop
-usr/share/doc/quadrapassel/
-usr/share/gnome/help/quadrapassel/
-usr/share/gnome-games/quadrapassel/
-usr/share/icons/hicolor/*/apps/gnome-quadrapassel.*
+usr/share/help/*/quadrapassel/
+usr/share/quadrapassel/
+usr/share/icons/hicolor/*/apps/quadrapassel.*
 usr/share/man/man6/quadrapassel.*
-usr/share/omf/quadrapassel/

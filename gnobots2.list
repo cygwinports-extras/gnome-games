@@ -1,8 +1,7 @@
 usr/bin/gnobots2.exe
 usr/share/applications/gnobots2.desktop
-usr/share/doc/gnobots2/
-usr/share/gnome/help/gnobots2/
-usr/share/gnome-games/gnobots2/
-usr/share/icons/hicolor/*/apps/gnome-robots.*
-usr/share/omf/gnobots2/
+usr/share/help/*/gnobots2/
+usr/share/gnobots2/
+usr/share/icons/hicolor/*/actions/teleport*
+usr/share/icons/hicolor/*/apps/gnobots2.*
 usr/share/man/man6/gnobots2.6*

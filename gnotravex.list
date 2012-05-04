@@ -1,6 +1,6 @@
 usr/bin/gnotravex.exe
 usr/share/applications/gnotravex.desktop
-usr/share/doc/gnotravex/
-usr/share/gnome/help/gnotravex/
-usr/share/icons/hicolor/*/apps/gnome-tetravex.*
+usr/share/gnotravex/
+usr/share/help/*/gnotravex/
+usr/share/icons/hicolor/*/apps/gnotravex.*
 usr/share/man/man6/gnotravex.6*

@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: glchess glines gnect gnibbles gnobots2 gnomine gnotravex gnotski gtali iagno mahjongg quadrapassel swell-foop
+requires: glchess glines gnect gnibbles gnobots2 gnome-sudoku gnomine gnotravex gnotski gtali iagno lightsoff mahjongg quadrapassel swell-foop
 sdesc: "Collection of games for the GNOME Desktop (meta-package)"
 ldesc: "Gnome-games is a collection of simple, but addictive, games from
 the GNOME desktop project. They represent many of the popular games and

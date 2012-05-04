@@ -1,8 +1,6 @@
 usr/bin/gnect.exe
 usr/share/applications/gnect.desktop
-usr/share/doc/gnect/
-usr/share/gnome/help/gnect/
-usr/share/gnome-games/gnect/
-usr/share/icons/hicolor/*/apps/gnome-gnect.*
-usr/share/omf/gnect/
+usr/share/gnect/
+usr/share/help/*/gnect/
+usr/share/icons/hicolor/*/apps/gnect.*
 usr/share/man/man6/gnect.6*
