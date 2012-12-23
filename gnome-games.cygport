@@ -1,0 +1,110 @@
+inherit gnome2 python
+
+NAME="gnome-games"
+VERSION=3.6.1
+RELEASE=1
+CATEGORY="Games GNOME"
+SUMMARY="Collection of games for the GNOME Desktop"
+
+PATCH_URI="
+	3.2.1-glchess-compile.patch
+"
+
+DEPEND="gnome-common gnome-doc-utils
+	pkgconfig(clutter-gtk-1.0)
+	pkgconfig(gconf-2.0)
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libcanberra-gtk3)
+	pkgconfig(librsvg-2.0)
+	pkgconfig(pygobject-3.0)
+	pkgconfig(sqlite3)
+	pkgconfig(glu)
+	pkgconfig(sm)
+	vala(gtk+-3.0)
+	vala(librsvg-2.0)
+	vala(sqlite3)"
+
+# must not use extra spaces so substitution works in CYGCONF_ARGS
+allgames="glchess glines gnect gnibbles gnobots2 gnomine gnotravex \
+gnotski gtali iagno lightsoff gnome-mahjongg quadrapassel swell-foop gnome-sudoku"
+
+PKG_NAMES="${PN}-common ${allgames}"
+gnome_games_common_SUMMARY="${SUMMARY} (common data)"
+gnome_games_common_CONTENTS="etc/defaults/var/games etc/p*/gnome-games.sh
+	usr/share/doc/gnome-games/ usr/share/glib-2.0/schemas/ usr/share/locale/"
+glchess_SUMMARY="GNOME chess game"
+glchess_REQUIRES="gnuchess"
+glchess_CONTENTS="usr/bin/glchess.exe usr/share/applications/glchess.desktop
+	usr/share/glchess/ usr/share/help/*/glchess/
+	usr/share/icons/hicolor/*/apps/glchess.* usr/share/man/man6/glchess.6*"
+glines_SUMMARY="GNOME five or more game"
+glines_CONTENTS="usr/bin/glines.exe usr/share/applications/glines.desktop
+	usr/share/glines/ usr/share/help/*/glines/
+	usr/share/icons/hicolor/*/apps/glines.* usr/share/man/man6/glines.6*"
+gnect_SUMMARY="GNOME connect four game"
+gnect_CONTENTS="usr/bin/gnect.exe usr/share/applications/gnect.desktop
+	usr/share/gnect/ usr/share/help/*/gnect/
+	usr/share/icons/hicolor/*/apps/gnect.* usr/share/man/man6/gnect.6*"
+gnibbles_SUMMARY="GNOME snake game"
+gnibbles_CONTENTS="usr/bin/gnibbles.exe usr/share/applications/gnibbles.desktop
+	usr/share/help/*/gnibbles/ usr/share/gnibbles/
+	usr/share/icons/hicolor/*/apps/gnibbles.* usr/share/man/man6/gnibbles.6*"
+gnobots2_SUMMARY="GNOME robots game"
+gnobots2_CONTENTS="usr/bin/gnobots2.exe usr/share/applications/gnobots2.desktop
+	usr/share/help/*/gnobots2/ usr/share/gnobots2/
+	usr/share/icons/hicolor/*/actions/teleport* usr/share/icons/hicolor/*/apps/gnobots2.*
+	usr/share/man/man6/gnobots2.6*"
+gnome_mahjongg_SUMMARY="GNOME Mahjongg game"
+gnome_mahjongg_CONTENTS="usr/bin/gnome-mahjongg.exe usr/share/applications/gnome-mahjongg.desktop
+	usr/share/gnome-mahjongg/ usr/share/help/*/gnome-mahjongg/
+	usr/share/icons/hicolor/*/apps/gnome-mahjongg.* usr/share/man/man6/gnome-mahjongg.6*"
+gnome_sudoku_SUMMARY="GNOME sudoku game"
+gnome_sudoku_REQUIRES="girepository-Gtk3.0"
+gnome_sudoku_CONTENTS="usr/bin/gnome-sudoku ${PYTHON_SITELIB#/}/gnome_sudoku/
+	usr/share/applications/gnome-sudoku.desktop usr/share/gnome-sudoku/
+	usr/share/help/*/gnome-sudoku/ usr/share/icons/hicolor/*/apps/gnome-sudoku.*
+	usr/share/man/man6/gnome-sudoku.6*"
+gnomine_SUMMARY="GNOME minesweeper game"
+gnomine_CONTENTS="usr/bin/gnomine.exe usr/share/applications/gnomine.desktop
+	usr/share/help/*/gnomine/ usr/share/gnomine/
+	usr/share/icons/hicolor/*/apps/gnomine.* usr/share/man/man6/gnomine.6*"
+gnotravex_SUMMARY="GNOME Tetravex game"
+gnotravex_CONTENTS="usr/bin/gnotravex.exe usr/share/applications/gnotravex.desktop
+	usr/share/gnotravex/ usr/share/help/*/gnotravex/
+	usr/share/icons/hicolor/*/apps/gnotravex.* usr/share/man/man6/gnotravex.6*"
+gnotski_SUMMARY="GNOME Klotski game"
+gnotski_CONTENTS="usr/bin/gnotski.exe usr/share/applications/gnotski.desktop
+	usr/share/gnotski/ usr/share/help/*/gnotski/
+	usr/share/icons/hicolor/*/apps/gnotski.* usr/share/man/man6/gnotski.6*"
+gtali_SUMMARY="GNOME Yahtzee game"
+gtali_CONTENTS="usr/bin/gtali.exe usr/share/applications/gtali.desktop
+	usr/share/help/*/gtali/ usr/share/gtali/
+	usr/share/icons/hicolor/*/apps/gtali.* usr/share/man/man6/gtali.6*"
+iagno_SUMMARY="GNOME reversi game"
+iagno_CONTENTS="usr/bin/iagno.exe usr/share/applications/iagno.desktop
+	usr/share/help/*/iagno/ usr/share/iagno/
+	usr/share/icons/hicolor/*/apps/iagno.* usr/share/man/man6/iagno.6*"
+lightsoff_SUMMARY="GNOME Lights Off game"
+lightsoff_CONTENTS="usr/bin/lightsoff.exe usr/share/applications/lightsoff.desktop
+	usr/share/help/*/lightsoff/ usr/share/lightsoff/
+	usr/share/icons/hicolor/*/apps/lightsoff.*"
+quadrapassel_SUMMARY="GNOME Tetris game"
+quadrapassel_CONTENTS="usr/bin/quadrapassel.exe usr/share/applications/quadrapassel.desktop
+	usr/share/help/*/quadrapassel/ usr/share/quadrapassel/
+	usr/share/icons/hicolor/*/apps/quadrapassel.* usr/share/man/man6/quadrapassel.*"
+swell_foop_SUMMARY="GNOME Same game"
+swell_foop_CONTENTS="usr/bin/swell-foop.exe usr/share/applications/swell-foop.desktop
+	usr/share/help/*/swell-foop/ usr/share/swell-foop/
+	usr/share/icons/hicolor/*/apps/swell-foop.*"
+
+for g in ${allgames}
+do
+	declare ${g//-/_}_REQUIRES+=" gnome-games-common"
+done
+
+DIFF_EXCLUDES="defaults.py glchess.in gnome-sudoku.in"
+
+CYGCONF_ARGS="
+	--disable-setgid
+	--with-platform=gnome
+"

@@ -1,6 +1,0 @@
-etc/defaults/var/games
-etc/postinstall/gnome-games.sh
-etc/preremove/gnome-games.sh
-usr/share/doc/gnome-games/
-usr/share/glib-2.0/schemas/
-usr/share/locale/
