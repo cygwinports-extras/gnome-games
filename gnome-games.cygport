@@ -2,7 +2,7 @@ inherit gnome2 python
 
 NAME="gnome-games"
 VERSION=3.6.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Games GNOME"
 SUMMARY="Collection of games for the GNOME Desktop"
 
